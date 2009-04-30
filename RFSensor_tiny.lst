@@ -1,0 +1,2352 @@
+
+AVRASM ver. 2.1.7  D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm Tue Mar 03 10:50:10 2009
+
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(19): Including file 'C:\Program Files\Atmel\AVR Tools\AvrAssembler2\Appnotes\tn2313def.inc'
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(361): Including file 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\Manchester_encoder.asm'
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): Including file 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm'
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): Including file 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm'
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(11): warning: Register r16 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(12): warning: Register r17 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(13): warning: Register r18 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(36): warning: Register r16 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(37): warning: Register r17 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(38): warning: Register r18 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(39): warning: Register r19 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(40): warning: Register r20 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(41): warning: Register r21 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(42): warning: Register r22 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(43): warning: Register r23 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(71): warning: Register r16 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(72): warning: Register r17 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(73): warning: Register r18 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(74): warning: Register r19 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(75): warning: Register r20 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(76): warning: Register r21 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(77): warning: Register r22 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(78): warning: Register r23 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(79): warning: Register r20 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(80): warning: Register r21 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(81): warning: Register r22 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(82): warning: Register r23 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(85): warning: Register r26 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(86): warning: Register r27 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(87): warning: Register r28 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(127): warning: Register r16 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(128): warning: Register r17 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(129): warning: Register r18 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(130): warning: Register r19 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(131): warning: Register r20 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(132): warning: Register r21 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(133): warning: Register r22 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(134): warning: Register r23 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(135): warning: Register r20 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(136): warning: Register r21 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(137): warning: Register r22 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(138): warning: Register r23 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(139): warning: Register r24 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(140): warning: Register r25 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(141): warning: Register r26 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(142): warning: Register r27 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(143): warning: Register r28 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(179): warning: Register r16 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(180): warning: Register r17 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(181): warning: Register r20 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(182): warning: Register r21 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm(183): warning: Register r22 already defined by the .DEF directive
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm(733): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\MAth32.asm' included form here
+D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\RFSensor_tiny.asm(362): 'D:\a-erezeev\AVRProjects\!weather\rfsensortiny1_01_bk(working)\SHTxx_driver.asm' included form here
+                 
+                 
+                 	Wireless 433.92MHz Thermo - Hygro sensor
+                 	with Oregon Scientific 1.0 protocol (seen as THN128 sensor)
+                 	Works with SHT temp/hum sensors.
+                 	fCPU: 4MHz
+                 
+                 	See details on my web page http://alyer.frihost.net
+                 
+                 	(c) Alexander Yerezeyev, 2007-2009
+                 	e-mail: wapbox@bk.ru
+                 	ICQ: 305206239
+                 
+                 
+                 	To Do: add DIP switch support for manual channel setting
+                 
+                 **********************************************************************/
+                 
+                 
+                 .include "tn2313def.inc"
+                 
+                 ;***** Created: 2005-11-04 09:37 ******* Source: ATtiny2313.xml **********
+                 ;*************************************************************************
+                 ;* A P P L I C A T I O N   N O T E   F O R   T H E   A V R   F A M I L Y
+                 ;* 
+                 ;* Number            : AVR000
+                 ;* File Name         : "tn2313def.inc"
+                 ;* Title             : Register/Bit Definitions for the ATtiny2313
+                 ;* Date              : 2005-11-04
+                 ;* Version           : 2.21
+                 ;* Support E-mail    : avr@atmel.com
+                 ;* Target MCU        : ATtiny2313
+                 ;* 
+                 ;* DESCRIPTION
+                 ;* When including this file in the assembly program file, all I/O register 
+                 ;* names and I/O register bit names appearing in the data book can be used.
+                 ;* In addition, the six registers forming the three data pointers X, Y and 
+                 ;* Z have been assigned names XL - ZH. Highest RAM address for Internal 
+                 ;* SRAM is also defined 
+                 ;* 
+                 ;* The Register names are represented by their hexadecimal address.
+                 ;* 
+                 ;* The Register Bit names are represented by their bit number (0-7).
+                 ;* 
+                 ;* Please observe the difference in using the bit names with instructions
+                 ;* such as "sbr"/"cbr" (set/clear bit in register) and "sbrs"/"sbrc"
+                 ;* (skip if bit in register set/cleared). The following example illustrates
+                 ;* this:
+                 ;* 
+                 ;* in    r16,PORTB             ;read PORTB latch
+                 ;* sbr   r16,(1<<PB6)+(1<<PB5) ;set PB6 and PB5 (use masks, not bit#)
+                 ;* out   PORTB,r16             ;output to PORTB
+                 ;* 
+                 ;* in    r16,TIFR              ;read the Timer Interrupt Flag Register
+                 ;* sbrc  r16,TOV0              ;test the overflow flag (use bit#)
+                 ;* rjmp  TOV0_is_set           ;jump if set
+                 ;* ...                         ;otherwise do something else
+                 ;*************************************************************************
+                 
+                 #ifndef _TN2313DEF_INC_
+                 #define _TN2313DEF_INC_
+                 
+                 
+                 #pragma partinc 0
+                 
+                 ; ***** SPECIFY DEVICE ***************************************************
+                 .device ATtiny2313
+                 #pragma AVRPART ADMIN PART_NAME ATtiny2313
+                 .equ	SIGNATURE_000	= 0x1e
+                 .equ	SIGNATURE_001	= 0x91
+                 .equ	SIGNATURE_002	= 0x0a
+                 
+                 #pragma AVRPART CORE CORE_VERSION V2
+                 #pragma AVRPART CORE NEW_INSTRUCTIONS lpm rd,z+
+                 
+                 
+                 ; ***** I/O REGISTER DEFINITIONS *****************************************
+                 ; NOTE:
+                 ; Definitions marked "MEMORY MAPPED"are extended I/O ports
+                 ; and cannot be used with IN/OUT instructions
+                 .equ	SREG	= 0x3f
+                 .equ	SPL	= 0x3d
+                 .equ	OCR0B	= 0x3c
+                 .equ	GIMSK	= 0x3b
+                 .equ	EIFR	= 0x3a
+                 .equ	TIMSK	= 0x39
+                 .equ	TIFR	= 0x38
+                 .equ	SPMCSR	= 0x37
+                 .equ	OCR0A	= 0x36
+                 .equ	MCUCR	= 0x35
+                 .equ	MCUSR	= 0x34
+                 .equ	TCCR0B	= 0x33
+                 .equ	TCNT0	= 0x32
+                 .equ	OSCCAL	= 0x31
+                 .equ	TCCR0A	= 0x30
+                 .equ	TCCR1A	= 0x2f
+                 .equ	TCCR1B	= 0x2e
+                 .equ	TCNT1L	= 0x2c
+                 .equ	TCNT1H	= 0x2d
+                 .equ	OCR1AL	= 0x2a
+                 .equ	OCR1AH	= 0x2b
+                 .equ	OCR1BL	= 0x28
+                 .equ	OCR1BH	= 0x29
+                 .equ	CLKPR	= 0x26
+                 .equ	ICR1L	= 0x24
+                 .equ	ICR1H	= 0x25
+                 .equ	GTCCR	= 0x23
+                 .equ	TCCR1C	= 0x22
+                 .equ	WDTCR	= 0x21
+                 .equ	PCMSK	= 0x20
+                 .equ	EEAR	= 0x1e
+                 .equ	EEDR	= 0x1d
+                 .equ	EECR	= 0x1c
+                 .equ	PORTA	= 0x1b
+                 .equ	DDRA	= 0x1a
+                 .equ	PINA	= 0x19
+                 .equ	PORTB	= 0x18
+                 .equ	DDRB	= 0x17
+                 .equ	PINB	= 0x16
+                 .equ	GPIOR2	= 0x15
+                 .equ	GPIOR1	= 0x14
+                 .equ	GPIOR0	= 0x13
+                 .equ	PORTD	= 0x12
+                 .equ	DDRD	= 0x11
+                 .equ	PIND	= 0x10
+                 .equ	USIDR	= 0x0f
+                 .equ	USISR	= 0x0e
+                 .equ	USICR	= 0x0d
+                 .equ	UDR	= 0x0c
+                 .equ	UCSRA	= 0x0b
+                 .equ	UCSRB	= 0x0a
+                 .equ	UBRRL	= 0x09
+                 .equ	ACSR	= 0x08
+                 .equ	UCSRC	= 0x03
+                 .equ	UBRRH	= 0x02
+                 .equ	DIDR	= 0x01
+                 
+                 
+                 ; ***** BIT DEFINITIONS **************************************************
+                 
+                 ; ***** PORTB ************************
+                 ; PORTB - Port B Data Register
+                 .equ	PORTB0	= 0	; Port B Data Register bit 0
+                 .equ	PB0	= 0	; For compatibility
+                 .equ	PORTB1	= 1	; Port B Data Register bit 1
+                 .equ	PB1	= 1	; For compatibility
+                 .equ	PORTB2	= 2	; Port B Data Register bit 2
+                 .equ	PB2	= 2	; For compatibility
+                 .equ	PORTB3	= 3	; Port B Data Register bit 3
+                 .equ	PB3	= 3	; For compatibility
+                 .equ	PORTB4	= 4	; Port B Data Register bit 4
+                 .equ	PB4	= 4	; For compatibility
+                 .equ	PORTB5	= 5	; Port B Data Register bit 5
+                 .equ	PB5	= 5	; For compatibility
+                 .equ	PORTB6	= 6	; Port B Data Register bit 6
+                 .equ	PB6	= 6	; For compatibility
+                 .equ	PORTB7	= 7	; Port B Data Register bit 7
+                 .equ	PB7	= 7	; For compatibility
+                 
+                 ; DDRB - Port B Data Direction Register
+                 .equ	DDB0	= 0	; Port B Data Direction Register bit 0
+                 .equ	DDB1	= 1	; Port B Data Direction Register bit 1
+                 .equ	DDB2	= 2	; Port B Data Direction Register bit 2
+                 .equ	DDB3	= 3	; Port B Data Direction Register bit 3
+                 .equ	DDB4	= 4	; Port B Data Direction Register bit 4
+                 .equ	DDB5	= 5	; Port B Data Direction Register bit 5
+                 .equ	DDB6	= 6	; Port B Data Direction Register bit 6
+                 .equ	DDB7	= 7	; Port B Data Direction Register bit 7
+                 
+                 ; PINB - Port B Input Pins
+                 .equ	PINB0	= 0	; Port B Input Pins bit 0
+                 .equ	PINB1	= 1	; Port B Input Pins bit 1
+                 .equ	PINB2	= 2	; Port B Input Pins bit 2
+                 .equ	PINB3	= 3	; Port B Input Pins bit 3
+                 .equ	PINB4	= 4	; Port B Input Pins bit 4
+                 .equ	PINB5	= 5	; Port B Input Pins bit 5
+                 .equ	PINB6	= 6	; Port B Input Pins bit 6
+                 .equ	PINB7	= 7	; Port B Input Pins bit 7
+                 
+                 
+                 ; ***** TIMER_COUNTER_0 **************
+                 ; TIMSK - Timer/Counter Interrupt Mask Register
+                 .equ	OCIE0A	= 0	; Timer/Counter0 Output Compare Match A Interrupt Enable
+                 .equ	TOIE0	= 1	; Timer/Counter0 Overflow Interrupt Enable
+                 .equ	OCIE0B	= 2	; Timer/Counter0 Output Compare Match B Interrupt Enable
+                 
+                 ; TIFR - Timer/Counter Interrupt Flag register
+                 .equ	OCF0A	= 0	; Timer/Counter0 Output Compare Flag 0A
+                 .equ	TOV0	= 1	; Timer/Counter0 Overflow Flag
+                 .equ	OCF0B	= 2	; Timer/Counter0 Output Compare Flag 0B
+                 
+                 ; OCR0B - Timer/Counter0 Output Compare Register
+                 .equ	OCR0_0	= 0	; 
+                 .equ	OCR0_1	= 1	; 
+                 .equ	OCR0_2	= 2	; 
+                 .equ	OCR0_3	= 3	; 
+                 .equ	OCR0_4	= 4	; 
+                 .equ	OCR0_5	= 5	; 
+                 .equ	OCR0_6	= 6	; 
+                 .equ	OCR0_7	= 7	; 
+                 
+                 ; OCR0A - Timer/Counter0 Output Compare Register
+                 ;.equ	OCR0_0	= 0	; 
+                 ;.equ	OCR0_1	= 1	; 
+                 ;.equ	OCR0_2	= 2	; 
+                 ;.equ	OCR0_3	= 3	; 
+                 ;.equ	OCR0_4	= 4	; 
+                 ;.equ	OCR0_5	= 5	; 
+                 ;.equ	OCR0_6	= 6	; 
+                 ;.equ	OCR0_7	= 7	; 
+                 
+                 ; TCCR0A - Timer/Counter  Control Register A
+                 .equ	WGM00	= 0	; Waveform Generation Mode
+                 .equ	WGM01	= 1	; Waveform Generation Mode
+                 .equ	COM0B0	= 4	; Compare Match Output B Mode
+                 .equ	COM0B1	= 5	; Compare Match Output B Mode
+                 .equ	COM0A0	= 6	; Compare Match Output A Mode
+                 .equ	COM0A1	= 7	; Compare Match Output A Mode
+                 
+                 ; TCNT0 - Timer/Counter0
+                 .equ	TCNT0_0	= 0	; 
+                 .equ	TCNT0_1	= 1	; 
+                 .equ	TCNT0_2	= 2	; 
+                 .equ	TCNT0_3	= 3	; 
+                 .equ	TCNT0_4	= 4	; 
+                 .equ	TCNT0_5	= 5	; 
+                 .equ	TCNT0_6	= 6	; 
+                 .equ	TCNT0_7	= 7	; 
+                 
+                 ; TCCR0B - Timer/Counter Control Register B
+                 .equ	TCCR0	= TCCR0B	; For compatibility
+                 .equ	CS00	= 0	; Clock Select
+                 .equ	CS01	= 1	; Clock Select
+                 .equ	CS02	= 2	; Clock Select
+                 .equ	WGM02	= 3	; 
+                 .equ	FOC0B	= 6	; Force Output Compare B
+                 .equ	FOC0A	= 7	; Force Output Compare B
+                 
+                 
+                 ; ***** TIMER_COUNTER_1 **************
+                 ; TIMSK - Timer/Counter Interrupt Mask Register
+                 .equ	ICIE1	= 3	; Timer/Counter1 Input Capture Interrupt Enable
+                 .equ	TICIE	= ICIE1	; For compatibility
+                 .equ	OCIE1B	= 5	; Timer/Counter1 Output CompareB Match Interrupt Enable
+                 .equ	OCIE1A	= 6	; Timer/Counter1 Output CompareA Match Interrupt Enable
+                 .equ	TOIE1	= 7	; Timer/Counter1 Overflow Interrupt Enable
+                 
+                 ; TIFR - Timer/Counter Interrupt Flag register
+                 .equ	ICF1	= 3	; Input Capture Flag 1
+                 .equ	OCF1B	= 5	; Output Compare Flag 1B
+                 .equ	OCF1A	= 6	; Output Compare Flag 1A
+                 .equ	TOV1	= 7	; Timer/Counter1 Overflow Flag
+                 
+                 ; TCCR1A - Timer/Counter1 Control Register A
+                 .equ	WGM10	= 0	; Pulse Width Modulator Select Bit 0
+                 .equ	PWM10	= WGM10	; For compatibility
+                 .equ	WGM11	= 1	; Pulse Width Modulator Select Bit 1
+                 .equ	PWM11	= WGM11	; For compatibility
+                 .equ	COM1B0	= 4	; Comparet Ouput Mode 1B, bit 0
+                 .equ	COM1B1	= 5	; Compare Output Mode 1B, bit 1
+                 .equ	COM1A0	= 6	; Comparet Ouput Mode 1A, bit 0
+                 .equ	COM1A1	= 7	; Compare Output Mode 1A, bit 1
+                 
+                 ; TCCR1B - Timer/Counter1 Control Register B
+                 .equ	CS10	= 0	; Clock Select bit 0
+                 .equ	CS11	= 1	; Clock Select 1 bit 1
+                 .equ	CS12	= 2	; Clock Select1 bit 2
+                 .equ	WGM12	= 3	; Waveform Generation Mode Bit 2
+                 .equ	CTC1	= WGM12	; For compatibility
+                 .equ	WGM13	= 4	; Waveform Generation Mode Bit 3
+                 .equ	ICES1	= 6	; Input Capture 1 Edge Select
+                 .equ	ICNC1	= 7	; Input Capture 1 Noise Canceler
+                 
+                 ; TCCR1C - Timer/Counter1 Control Register C
+                 .equ	FOC1B	= 6	; Force Output Compare for Channel B
+                 .equ	FOC1A	= 7	; Force Output Compare for Channel A
+                 
+                 
+                 ; ***** WATCHDOG *********************
+                 ; WDTCR - Watchdog Timer Control Register
+                 .equ	WDTCSR	= WDTCR	; For compatibility
+                 .equ	WDP0	= 0	; Watch Dog Timer Prescaler bit 0
+                 .equ	WDP1	= 1	; Watch Dog Timer Prescaler bit 1
+                 .equ	WDP2	= 2	; Watch Dog Timer Prescaler bit 2
+                 .equ	WDE	= 3	; Watch Dog Enable
+                 .equ	WDCE	= 4	; Watchdog Change Enable
+                 .equ	WDTOE	= WDCE	; For compatibility
+                 .equ	WDP3	= 5	; Watchdog Timer Prescaler Bit 3
+                 .equ	WDIE	= 6	; Watchdog Timeout Interrupt Enable
+                 .equ	WDIF	= 7	; Watchdog Timeout Interrupt Flag
+                 
+                 
+                 ; ***** EXTERNAL_INTERRUPT ***********
+                 ; GIMSK - General Interrupt Mask Register
+                 .equ	PCIE	= 5	; 
+                 .equ	INT0	= 6	; External Interrupt Request 0 Enable
+                 .equ	INT1	= 7	; External Interrupt Request 1 Enable
+                 
+                 ; EIFR - Extended Interrupt Flag Register
+                 .equ	GIFR	= EIFR	; For compatibility
+                 .equ	PCIF	= 5	; 
+                 .equ	INTF0	= 6	; External Interrupt Flag 0
+                 .equ	INTF1	= 7	; External Interrupt Flag 1
+                 
+                 
+                 ; ***** USART ************************
+                 ; UDR - USART I/O Data Register
+                 .equ	UDR0	= 0	; USART I/O Data Register bit 0
+                 .equ	UDR1	= 1	; USART I/O Data Register bit 1
+                 .equ	UDR2	= 2	; USART I/O Data Register bit 2
+                 .equ	UDR3	= 3	; USART I/O Data Register bit 3
+                 .equ	UDR4	= 4	; USART I/O Data Register bit 4
+                 .equ	UDR5	= 5	; USART I/O Data Register bit 5
+                 .equ	UDR6	= 6	; USART I/O Data Register bit 6
+                 .equ	UDR7	= 7	; USART I/O Data Register bit 7
+                 
+                 ; UCSRA - USART Control and Status Register A
+                 .equ	USR	= UCSRA	; For compatibility
+                 .equ	MPCM	= 0	; Multi-processor Communication Mode
+                 .equ	U2X	= 1	; Double the USART Transmission Speed
+                 .equ	UPE	= 2	; USART Parity Error
+                 .equ	PE	= UPE	; For compatibility
+                 .equ	DOR	= 3	; Data overRun
+                 .equ	FE	= 4	; Framing Error
+                 .equ	UDRE	= 5	; USART Data Register Empty
+                 .equ	TXC	= 6	; USART Transmitt Complete
+                 .equ	RXC	= 7	; USART Receive Complete
+                 
+                 ; UCSRB - USART Control and Status Register B
+                 .equ	UCR	= UCSRB	; For compatibility
+                 .equ	TXB8	= 0	; Transmit Data Bit 8
+                 .equ	RXB8	= 1	; Receive Data Bit 8
+                 .equ	UCSZ2	= 2	; Character Size
+                 .equ	CHR9	= UCSZ2	; For compatibility
+                 .equ	TXEN	= 3	; Transmitter Enable
+                 .equ	RXEN	= 4	; Receiver Enable
+                 .equ	UDRIE	= 5	; USART Data register Empty Interrupt Enable
+                 .equ	TXCIE	= 6	; TX Complete Interrupt Enable
+                 .equ	RXCIE	= 7	; RX Complete Interrupt Enable
+                 
+                 ; UCSRC - USART Control and Status Register C
+                 .equ	UCPOL	= 0	; Clock Polarity
+                 .equ	UCSZ0	= 1	; Character Size Bit 0
+                 .equ	UCSZ1	= 2	; Character Size Bit 1
+                 .equ	USBS	= 3	; Stop Bit Select
+                 .equ	UPM0	= 4	; Parity Mode Bit 0
+                 .equ	UPM1	= 5	; Parity Mode Bit 1
+                 .equ	UMSEL	= 6	; USART Mode Select
+                 
+                 .equ	UBRR	= UBRRL	; For compatibility
+                 
+                 ; ***** ANALOG_COMPARATOR ************
+                 ; ACSR - Analog Comparator Control And Status Register
+                 .equ	ACIS0	= 0	; Analog Comparator Interrupt Mode Select bit 0
+                 .equ	ACIS1	= 1	; Analog Comparator Interrupt Mode Select bit 1
+                 .equ	ACIC	= 2	; 
+                 .equ	ACIE	= 3	; Analog Comparator Interrupt Enable
+                 .equ	ACI	= 4	; Analog Comparator Interrupt Flag
+                 .equ	ACO	= 5	; Analog Compare Output
+                 .equ	ACBG	= 6	; Analog Comparator Bandgap Select
+                 .equ	ACD	= 7	; Analog Comparator Disable
+                 
+                 ; DIDR - Digital Input Disable Register 1
+                 .equ	AIN0D	= 0	; AIN0 Digital Input Disable
+                 .equ	AIN1D	= 1	; AIN1 Digital Input Disable
+                 
+                 
+                 ; ***** PORTD ************************
+                 ; PORTD - Data Register, Port D
+                 .equ	PORTD0	= 0	; 
+                 .equ	PD0	= 0	; For compatibility
+                 .equ	PORTD1	= 1	; 
+                 .equ	PD1	= 1	; For compatibility
+                 .equ	PORTD2	= 2	; 
+                 .equ	PD2	= 2	; For compatibility
+                 .equ	PORTD3	= 3	; 
+                 .equ	PD3	= 3	; For compatibility
+                 .equ	PORTD4	= 4	; 
+                 .equ	PD4	= 4	; For compatibility
+                 .equ	PORTD5	= 5	; 
+                 .equ	PD5	= 5	; For compatibility
+                 .equ	PORTD6	= 6	; 
+                 .equ	PD6	= 6	; For compatibility
+                 
+                 ; DDRD
+                 .equ	DDD0	= 0	; 
+                 .equ	DDD1	= 1	; 
+                 .equ	DDD2	= 2	; 
+                 .equ	DDD3	= 3	; 
+                 .equ	DDD4	= 4	; 
+                 .equ	DDD5	= 5	; 
+                 .equ	DDD6	= 6	; 
+                 
+                 ; PIND - Input Pins, Port D
+                 .equ	PIND0	= 0	; 
+                 .equ	PIND1	= 1	; 
+                 .equ	PIND2	= 2	; 
+                 .equ	PIND3	= 3	; 
+                 .equ	PIND4	= 4	; 
+                 .equ	PIND5	= 5	; 
+                 .equ	PIND6	= 6	; 
+                 
+                 
+                 ; ***** EEPROM ***********************
+                 ; EEAR - EEPROM Read/Write Access
+                 .equ	EEARL	= EEAR	; For compatibility
+                 .equ	EEAR0	= 0	; EEPROM Read/Write Access bit 0
+                 .equ	EEAR1	= 1	; EEPROM Read/Write Access bit 1
+                 .equ	EEAR2	= 2	; EEPROM Read/Write Access bit 2
+                 .equ	EEAR3	= 3	; EEPROM Read/Write Access bit 3
+                 .equ	EEAR4	= 4	; EEPROM Read/Write Access bit 4
+                 .equ	EEAR5	= 5	; EEPROM Read/Write Access bit 5
+                 .equ	EEAR6	= 6	; EEPROM Read/Write Access bit 6
+                 
+                 ; EEDR - EEPROM Data Register
+                 .equ	EEDR0	= 0	; EEPROM Data Register bit 0
+                 .equ	EEDR1	= 1	; EEPROM Data Register bit 1
+                 .equ	EEDR2	= 2	; EEPROM Data Register bit 2
+                 .equ	EEDR3	= 3	; EEPROM Data Register bit 3
+                 .equ	EEDR4	= 4	; EEPROM Data Register bit 4
+                 .equ	EEDR5	= 5	; EEPROM Data Register bit 5
+                 .equ	EEDR6	= 6	; EEPROM Data Register bit 6
+                 .equ	EEDR7	= 7	; EEPROM Data Register bit 7
+                 
+                 ; EECR - EEPROM Control Register
+                 .equ	EERE	= 0	; EEPROM Read Enable
+                 .equ	EEPE	= 1	; EEPROM Write Enable
+                 .equ	EEWE	= EEPE	; For compatibility
+                 .equ	EEMPE	= 2	; EEPROM Master Write Enable
+                 .equ	EEMWE	= EEMPE	; For compatibility
+                 .equ	EERIE	= 3	; EEProm Ready Interrupt Enable
+                 .equ	EEPM0	= 4	; 
+                 .equ	EEPM1	= 5	; 
+                 
+                 
+                 ; ***** PORTA ************************
+                 ; PORTA - Port A Data Register
+                 .equ	PORTA0	= 0	; Port A Data Register bit 0
+                 .equ	PA0	= 0	; For compatibility
+                 .equ	PORTA1	= 1	; Port A Data Register bit 1
+                 .equ	PA1	= 1	; For compatibility
+                 .equ	PORTA2	= 2	; Port A Data Register bit 2
+                 .equ	PA2	= 2	; For compatibility
+                 
+                 ; DDRA - Port A Data Direction Register
+                 .equ	DDA0	= 0	; Data Direction Register, Port A, bit 0
+                 .equ	DDA1	= 1	; Data Direction Register, Port A, bit 1
+                 .equ	DDA2	= 2	; Data Direction Register, Port A, bit 2
+                 
+                 ; PINA - Port A Input Pins
+                 .equ	PINA0	= 0	; Input Pins, Port A bit 0
+                 .equ	PINA1	= 1	; Input Pins, Port A bit 1
+                 .equ	PINA2	= 2	; Input Pins, Port A bit 2
+                 
+                 
+                 ; ***** CPU **************************
+                 ; SREG - Status Register
+                 .equ	SREG_C	= 0	; Carry Flag
+                 .equ	SREG_Z	= 1	; Zero Flag
+                 .equ	SREG_N	= 2	; Negative Flag
+                 .equ	SREG_V	= 3	; Two's Complement Overflow Flag
+                 .equ	SREG_S	= 4	; Sign Bit
+                 .equ	SREG_H	= 5	; Half Carry Flag
+                 .equ	SREG_T	= 6	; Bit Copy Storage
+                 .equ	SREG_I	= 7	; Global Interrupt Enable
+                 
+                 ; SPMCSR - Store Program Memory Control and Status register
+                 .equ	SPMEN	= 0	; Store Program Memory Enable
+                 .equ	PGERS	= 1	; Page Erase
+                 .equ	PGWRT	= 2	; Page Write
+                 .equ	RFLB	= 3	; Read Fuse and Lock Bits
+                 .equ	CTPB	= 4
+                 
+                 ; MCUCR - MCU Control Register
+                 .equ	ISC00	= 0	; Interrupt Sense Control 0 bit 0
+                 .equ	ISC01	= 1	; Interrupt Sense Control 0 bit 1
+                 .equ	ISC10	= 2	; Interrupt Sense Control 1 bit 0
+                 .equ	ISC11	= 3	; Interrupt Sense Control 1 bit 1
+                 .equ	SM0	= 4	; Sleep Mode Select Bit 0
+                 .equ	SM	= SM0	; For compatibility
+                 .equ	SE	= 5	; Sleep Enable
+                 .equ	SM1	= 6	; Sleep Mode Select Bit 1
+                 .equ	PUD	= 7	; Pull-up Disable
+                 
+                 ; CLKPR - Clock Prescale Register
+                 .equ	CLKPS0	= 0	; Clock Prescaler Select Bit 0
+                 .equ	CLKPS1	= 1	; Clock Prescaler Select Bit 1
+                 .equ	CLKPS2	= 2	; Clock Prescaler Select Bit 2
+                 .equ	CLKPS3	= 3	; Clock Prescaler Select Bit 3
+                 .equ	CLKPCE	= 7	; Clock Prescaler Change Enable
+                 
+                 ; MCUSR - MCU Status register
+                 .equ	PORF	= 0	; Power-On Reset Flag
+                 .equ	EXTRF	= 1	; External Reset Flag
+                 .equ	BORF	= 2	; Brown-out Reset Flag
+                 .equ	WDRF	= 3	; Watchdog Reset Flag
+                 
+                 ; OSCCAL - Oscillator Calibration Register
+                 .equ	CAL0	= 0	; Oscillatro Calibration Value Bit 0
+                 .equ	CAL1	= 1	; Oscillatro Calibration Value Bit 1
+                 .equ	CAL2	= 2	; Oscillatro Calibration Value Bit 2
+                 .equ	CAL3	= 3	; Oscillatro Calibration Value Bit 3
+                 .equ	CAL4	= 4	; Oscillatro Calibration Value Bit 4
+                 .equ	CAL5	= 5	; Oscillatro Calibration Value Bit 5
+                 .equ	CAL6	= 6	; Oscillatro Calibration Value Bit 6
+                 
+                 ; GTCCR - General Timer Counter Control Register
+                 .equ	SFIOR	= GTCCR	; For compatibility
+                 .equ	PSR10	= 0	; 
+                 
+                 ; PCMSK - Pin-Change Mask register
+                 .equ	PCINT0	= 0	; Pin-Change Interrupt 0
+                 .equ	PCINT1	= 1	; Pin-Change Interrupt 1
+                 .equ	PCINT2	= 2	; Pin-Change Interrupt 2
+                 .equ	PCINT3	= 3	; Pin-Change Interrupt 3
+                 .equ	PCINT4	= 4	; Pin-Change Interrupt 4
+                 .equ	PCINT5	= 5	; Pin-Change Interrupt 5
+                 .equ	PCINT6	= 6	; Pin-Change Interrupt 6
+                 .equ	PCINT7	= 7	; Pin-Change Interrupt 7
+                 
+                 ; GPIOR2 - General Purpose I/O Register 2
+                 .equ	GPIOR20	= 0	; General Purpose I/O Register 2 bit 0
+                 .equ	GPIOR21	= 1	; General Purpose I/O Register 2 bit 1
+                 .equ	GPIOR22	= 2	; General Purpose I/O Register 2 bit 2
+                 .equ	GPIOR23	= 3	; General Purpose I/O Register 2 bit 3
+                 .equ	GPIOR24	= 4	; General Purpose I/O Register 2 bit 4
+                 .equ	GPIOR25	= 5	; General Purpose I/O Register 2 bit 5
+                 .equ	GPIOR26	= 6	; General Purpose I/O Register 2 bit 6
+                 .equ	GPIOR27	= 7	; General Purpose I/O Register 2 bit 7
+                 
+                 ; GPIOR1 - General Purpose I/O Register 1
+                 .equ	GPIOR10	= 0	; General Purpose I/O Register 1 bit 0
+                 .equ	GPIOR11	= 1	; General Purpose I/O Register 1 bit 1
+                 .equ	GPIOR12	= 2	; General Purpose I/O Register 1 bit 2
+                 .equ	GPIOR13	= 3	; General Purpose I/O Register 1 bit 3
+                 .equ	GPIOR14	= 4	; General Purpose I/O Register 1 bit 4
+                 .equ	GPIOR15	= 5	; General Purpose I/O Register 1 bit 5
+                 .equ	GPIOR16	= 6	; General Purpose I/O Register 1 bit 6
+                 .equ	GPIOR17	= 7	; General Purpose I/O Register 1 bit 7
+                 
+                 ; GPIOR0 - General Purpose I/O Register 0
+                 .equ	GPIOR00	= 0	; General Purpose I/O Register 0 bit 0
+                 .equ	GPIOR01	= 1	; General Purpose I/O Register 0 bit 1
+                 .equ	GPIOR02	= 2	; General Purpose I/O Register 0 bit 2
+                 .equ	GPIOR03	= 3	; General Purpose I/O Register 0 bit 3
+                 .equ	GPIOR04	= 4	; General Purpose I/O Register 0 bit 4
+                 .equ	GPIOR05	= 5	; General Purpose I/O Register 0 bit 5
+                 .equ	GPIOR06	= 6	; General Purpose I/O Register 0 bit 6
+                 .equ	GPIOR07	= 7	; General Purpose I/O Register 0 bit 7
+                 
+                 
+                 ; ***** USI **************************
+                 ; USIDR - USI Data Register
+                 .equ	USIDR0	= 0	; USI Data Register bit 0
+                 .equ	USIDR1	= 1	; USI Data Register bit 1
+                 .equ	USIDR2	= 2	; USI Data Register bit 2
+                 .equ	USIDR3	= 3	; USI Data Register bit 3
+                 .equ	USIDR4	= 4	; USI Data Register bit 4
+                 .equ	USIDR5	= 5	; USI Data Register bit 5
+                 .equ	USIDR6	= 6	; USI Data Register bit 6
+                 .equ	USIDR7	= 7	; USI Data Register bit 7
+                 
+                 ; USISR - USI Status Register
+                 .equ	USICNT0	= 0	; USI Counter Value Bit 0
+                 .equ	USICNT1	= 1	; USI Counter Value Bit 1
+                 .equ	USICNT2	= 2	; USI Counter Value Bit 2
+                 .equ	USICNT3	= 3	; USI Counter Value Bit 3
+                 .equ	USIDC	= 4	; Data Output Collision
+                 .equ	USIPF	= 5	; Stop Condition Flag
+                 .equ	USIOIF	= 6	; Counter Overflow Interrupt Flag
+                 .equ	USISIF	= 7	; Start Condition Interrupt Flag
+                 
+                 ; USICR - USI Control Register
+                 .equ	USITC	= 0	; Toggle Clock Port Pin
+                 .equ	USICLK	= 1	; Clock Strobe
+                 .equ	USICS0	= 2	; USI Clock Source Select Bit 0
+                 .equ	USICS1	= 3	; USI Clock Source Select Bit 1
+                 .equ	USIWM0	= 4	; USI Wire Mode Bit 0
+                 .equ	USIWM1	= 5	; USI Wire Mode Bit 1
+                 .equ	USIOIE	= 6	; Counter Overflow Interrupt Enable
+                 .equ	USISIE	= 7	; Start Condition Interrupt Enable
+                 
+                 
+                 
+                 ; ***** LOCKSBITS ********************************************************
+                 .equ	LB1	= 0	; Lockbit
+                 .equ	LB2	= 1	; Lockbit
+                 
+                 
+                 ; ***** FUSES ************************************************************
+                 ; LOW fuse bits
+                 .equ	CKSEL0	= 0	; Select Clock Source
+                 .equ	CKSEL1	= 1	; Select Clock Source
+                 .equ	CKSEL2	= 2	; Select Clock Source
+                 .equ	CKSEL3	= 3	; Select Clock Source
+                 .equ	SUT0	= 4	; Select start-up time
+                 .equ	SUT1	= 5	; Select start-up time
+                 .equ	CKOUT	= 6	; Clock output
+                 .equ	CKDIV8	= 7	; Divide clock by 8
+                 
+                 ; HIGH fuse bits
+                 .equ	BODLEVEL0	= 0	; Brown-out Detector trigger level
+                 .equ	BODLEVEL1	= 1	; Brown-out Detector trigger level
+                 .equ	BODLEVEL2	= 2	; Brown-out Detector trigger level
+                 .equ	EESAVE	= 3	; EEPROM memory is preserved through chip erase
+                 .equ	WDTON	= 4	; Watchdog Timer Always On
+                 .equ	SPIEN	= 5	; Enable Serial programming and Data Downloading
+                 .equ	DWEN	= 6	; debugWIRE Enable
+                 .equ	RSTDISBL	= 7	; External reset disable
+                 
+                 ; EXTENDED fuse bits
+                 .equ	SELFPRGEN	= 0	; Self Programming Enable
+                 
+                 
+                 
+                 ; ***** CPU REGISTER DEFINITIONS *****************************************
+                 .def	XH	= r27
+                 .def	XL	= r26
+                 .def	YH	= r29
+                 .def	YL	= r28
+                 .def	ZH	= r31
+                 .def	ZL	= r30
+                 
+                 
+                 
+                 ; ***** DATA MEMORY DECLARATIONS *****************************************
+                 .equ	FLASHEND	= 0x03ff	; Note: Word address
+                 .equ	IOEND	= 0x003f
+                 .equ	SRAM_START	= 0x0060
+                 .equ	SRAM_SIZE	= 128
+                 .equ	RAMEND	= 0x00df
+                 .equ	XRAMEND	= 0x0000
+                 .equ	E2END	= 0x007f
+                 .equ	EEPROMEND	= 0x007f
+                 .equ	EEADRBITS	= 7
+                 #pragma AVRPART MEMORY PROG_FLASH 2048
+                 #pragma AVRPART MEMORY EEPROM 128
+                 #pragma AVRPART MEMORY INT_SRAM SIZE 128
+                 #pragma AVRPART MEMORY INT_SRAM START_ADDR 0x60
+                 
+                 
+                 
+                 ; ***** BOOTLOADER DECLARATIONS ******************************************
+                 .equ	NRWW_START_ADDR	= 0x0
+                 .equ	NRWW_STOP_ADDR	= 0x3ff
+                 .equ	RWW_START_ADDR	= 0x0
+                 .equ	RWW_STOP_ADDR	= 0x0
+                 .equ	PAGESIZE	= 16
+                 
+                 
+                 
+                 ; ***** INTERRUPT VECTORS ************************************************
+                 .equ	INT0addr	= 0x0001	; External Interrupt Request 0
+                 .equ	INT1addr	= 0x0002	; External Interrupt Request 1
+                 .equ	ICP1addr	= 0x0003	; Timer/Counter1 Capture Event
+                 .equ	OC1Aaddr	= 0x0004	; Timer/Counter1 Compare Match A
+                 .equ	OC1addr	= 0x0004	; For compatibility
+                 .equ	OVF1addr	= 0x0005	; Timer/Counter1 Overflow
+                 .equ	OVF0addr	= 0x0006	; Timer/Counter0 Overflow
+                 .equ	URXCaddr	= 0x0007	; USART, Rx Complete
+                 .equ	URXC0addr	= 0x0007	; For compatibility
+                 .equ	UDREaddr	= 0x0008	; USART Data Register Empty
+                 .equ	UDRE0addr	= 0x0008	; For compatibility
+                 .equ	UTXCaddr	= 0x0009	; USART, Tx Complete
+                 .equ	UTXC0addr	= 0x0009	; For compatibility
+                 .equ	ACIaddr	= 0x000a	; Analog Comparator
+                 .equ	PCIaddr	= 0x000b	; 
+                 .equ	OC1Baddr	= 0x000c	; 
+                 .equ	OC0Aaddr	= 0x000d	; 
+                 .equ	OC0Baddr	= 0x000e	; 
+                 .equ	USI_STARTaddr	= 0x000f	; USI Start Condition
+                 .equ	USI_OVFaddr	= 0x0010	; USI Overflow
+                 .equ	ERDYaddr	= 0x0011	; 
+                 .equ	WDTaddr	= 0x0012	; Watchdog Timer Overflow
+                 
+                 .equ	INT_VECTORS_SIZE	= 19	; size in words
+                 
+                 #endif  /* _TN2313DEF_INC_ */
+                 
+                 ; ***** END OF FILE ******************************************************
+                 
+                 .def Temp	=r16;
+                 .def Temp2	=r17;
+                 .def Temp3	=r18;
+                 
+                 
+                 .dseg
+                 .org 0x060
+                 
+000060 00
+000061 00
+000062 00
+000063 00
+000064 00
+000065 00
+000066 00
+000067 00
+000068 00
+000069 00
+00006a 00
+00006b 00        EncodedBits:	.db 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00
+                 
+                 // Data for storing measurements (must be equal to zero)
+                 // Do not change
+                 DataBits:		
+00006c 00        CH_byte:	.db 0x00; 	// Channel # 0..2
+00006d 00        TH32_byte:	.db 0x00;	// Digits 3 and 2
+00006e 00        TH1X_byte:	.db 0x00;	// Digit 1
+00006f 00        CRC_byte:	.db 0x00;	// CRC
+                 
+                 // Temprorary buffers
+                 // Do not change
+000070 00        TH1:		.db 0x00; 	// Digit 1
+000071 00        TH2:		.db 0x00; 	// Digit 2
+000072 00        TH3:		.db 0x00;	// Digit 3
+000073 00        Channel:	.db 0x00;	// Channel
+000074 00        FLags:		.db 0x00;	// Flags
+                 
+                 // Service variables
+                 // Do not change
+000075 00        TXbits_cnt:	.db 0x00;	// TX bits counter
+000076 00        Task_State:	.db 0x00; 	// current programm state
+000077 00        T_RH_sw:	.db 0x00; 	// Temperature/Humidity state
+000078 00        ErrorCnt:	.db 0x00; 	// Error Counter
+000079 00        pValueH:	.db 0x00;
+00007a 00        pValueL:	.db 0x00;
+00007b 00        pCRC:		.db 0x00;
+00007c 00        pCommand:	.db 0x00;
+00007d 00        pCommError:	.db 0x00;
+00007e 00        pBattery:	.db 0x00;
+00007f 00        CRC_gen:	.db 0x00
+                 
+000080 00        pHUMI:		.db 0x00
+000081 00        pHUMI_dec:	.db 0x00
+                 
+000082 00        pTEMP:		.db 0x00
+000083 00        pTEMP_dec:	.db 0x00
+000084 00        pTEMP_sign:	.db 0x00
+                 
+000085 00        SensorID:	.db 0x00;	// OS random sensor ID (00 - default)
+                 
+                 // Bit numberss in OS v1 protocol
+                 .equ	Batt 		=7;
+                 .equ	Sign 		=5;
+                 .equ	ComError	=6;
+                 
+                 
+                 // I/O pins definitions
+                 .equ	LED		=PB4; LED
+                 .equ	SHTpwr	=PB0; POWER line for SHT11 sensor (I decided not to used it)	
+                 .equ 	TX		=PB3; TX line for TLP434 
+                 // data lines for SHT11
+                 .equ	SCK 	=PB1; 
+                 .equ	DATA 	=PB2;
+                 .equ	TXPwr	=PD5;
+                 .equ	noACK 	=0;
+                 .equ 	ACK 	=1;
+                 
+                 //adr command r/w for SHT11
+                 .equ 	STATUS_REG_W =0x06 //000 0011 0
+                 .equ 	STATUS_REG_R =0x07 //000 0011 1
+                 .equ 	MEASURE_TEMP =0x03 //000 0001 1
+                 .equ 	MEASURE_HUMI =0x05 //000 0010 1
+                 .equ 	RESET =0x1e //000 1111 0
+                 .equ	HUMI_ID	=0b00001110
+                 .equ	TEMP_ID	=0b00001001
+                 
+                 // Timing presets
+                 .equ	Tact	=0x5A
+                 .equ	dT		=17
+                 
+                 .cseg
+                 .org 0x0000
+000000 c00d      	rjmp main
+                 .org 0x0004 
+000004 c034      	rjmp TIM1_COMPA
+                 .org 0x000D
+00000d c069      	rjmp TIMER0_COMPA
+                 
+                 main:		
+00000e ed0f      	ldi Temp, low(RAMEND);
+00000f bf0d      	out SPL, Temp
+                 		
+000010 27ff      	clr ZH
+000011 eee0      	ldi ZL, low(RAMEND)+1	// point at last SRAM byte+1
+000012 2711      	clr Temp2
+000013 e800      	ldi Temp, 128			// RAM counter
+                 SRAM_clear_loop:
+000014 9312      	st -Z, Temp2			// Clear SRAM
+000015 950a      	dec Temp
+000016 f7e9      	brne SRAM_clear_loop	
+                 
+000017 e10b      	ldi Temp, (1<<TX)|(1<<SCK)|(1<<SHTpwr)|(1<<LED)
+000018 bb07      	out DDRB, Temp		// Set IO directions
+000019 9a8d      	sbi DDRD, TXpwr		// Set IO directions for TX pwr
+                 
+00001a 9ac0      	sbi PORTB, SHTpwr 	// Turn ON SHT sensor pwr
+00001b e002      	ldi Temp,(1<<WGM01);// Init T0 CTC mode
+00001c bf00      	out TCCR0A, Temp
+00001d e401      	ldi Temp, (1<<OCIE0A)|(1<<OCIE1A);
+00001e bf09      	out TIMSK, Temp		//Enable T0A T1A interrupts
+00001f e009      	ldi Temp, 0x09		// Initial delay for SHT turn-on
+000020 d006      	rcall StartT1		
+000021 9478      	sei					//Enable interrupts
+000022 b705      	in Temp, MCUCR
+000023 6200      	ori Temp, (1<<SE)
+000024 bf05      	out MCUCR, Temp		// Enable sleep mode
+                 forever:
+000025 9588      	sleep				// Just sleep in main cycle
+000026 cffe      	rjmp forever
+                 
+                 //***************************************************
+                 // Start T1 procedure
+                 // in:	Temp 	- H OCR
+                 // 		Temp2 	- L OCR
+                 //***************************************************
+                 StartT1:
+000027 bd0b      	out OCR1AH, Temp
+000028 bd1a      	out OCR1AL, Temp2
+000029 2700      	clr Temp
+00002a bd0d      	out TCNT1H, Temp
+00002b bd0c      	out TCNT1L, Temp
+00002c e00d      	ldi Temp, (1<<WGM12)|(1<<CS12)|(1<<CS10)//1024 prescaler, set CTC mode
+00002d bd0e      	out TCCR1B, Temp
+00002e 9508      	ret
+                 
+                 //***************************************************
+                 // Start TX process procedure
+                 // when running from StartTX_again_1,
+                 // then put in Temp desired bit latency	
+                 //***************************************************
+                 StartTX:
+00002f 2700      	clr Temp
+000030 9300 0075 	sts TXbits_cnt, Temp; // Clear transmiter bit counter @ start
+                 StartTX_again:
+000032 e60b      	ldi Temp, Tact+dT;
+                 StartTX_again_1:
+000033 bf06      	out OCR0A, Temp
+000034 2700      	clr Temp
+000035 bf02        	out TCNT0, Temp
+000036 e003      	ldi Temp, (1<<CS01)|(1<<CS00); //64 prescaler// Set CTC Mode
+000037 bf03        	out TCCR0B, Temp // Start T0A timer
+000038 9508          ret
+                 
+                 //**********************************************
+                 // T1 compare A interrupt handler
+                 // Main Task Manager Timer
+                 //**********************************************
+                 TIM1_COMPA:
+                 
+000039 930f      	push Temp	; 
+00003a b70f       	in Temp, SREG
+00003b 930f      	push Temp
+00003c 931f      	push Temp2
+00003d 932f      	push Temp3
+00003e 2700      	clr Temp
+00003f bd0e      	out TCCR1B, Temp //Stop T1
+                 	
+000040 9100 0076 	lds Temp, Task_State	//Load CPU State Flag
+000042 2300      	tst Temp				
+000043 f039      	breq T1_case0			// State Flag: 0
+000044 3001      	cpi Temp, 1
+000045 f0b1      	breq T1_case1			// State Flag: 1
+000046 3002      	cpi Temp, 2
+000047 f0b9      	breq T1_case2			// State Flag: 2
+000048 3003      	cpi Temp, 3	
+000049 f0b9      	breq T1_case3			// State Flag: 3
+00004a c01e      	rjmp T1_exit1
+                 // State Flag: 0 		
+                 T1_case0:
+00004b e800      	ldi Temp, 0b10000000
+00004c bd06      	out CLKPR, Temp
+00004d e000      	ldi Temp, 0b00000000
+00004e bd06      	out CLKPR, Temp
+                 
+00004f e10e      	ldi Temp, 0x1E
+000050 e813      	ldi Temp2, 0x83
+000051 dfd5      	rcall startT1			// Let's give 2 seconds to get data from SHT
+000052 9100 0077 	lds Temp, T_RH_sw		// Load RH/Temperature switch bit
+000054 7001      	andi Temp, 0b00000001	// Mask it
+000055 930f      	push Temp				// Save on stack
+000056 d0fa      	rcall s_GetData			// Goto SHT data process -> Manchester encoder
+000057 910f      	pop Temp				// Restore RH/Temperature switch bit
+000058 9503      	inc Temp				// Toggle it
+000059 9300 0077 	sts T_RH_sw, Temp		// Save it in SRAM
+00005b c00d      	rjmp T1_exit1			// End state 0 process
+                 // State Flag: 1
+                 T1_case1:
+00005c 98c4      	cbi PORTB, LED
+00005d dfd1      	rcall StartTX			// Start transmition of TEMP/HUMI 
+00005e c00a      	rjmp T1_exit1			//depended on Restore RH/Temperature switch bit
+                 // State Flag: 2
+                 T1_case2:
+00005f dfcf      	rcall StartTX			// after 100ms  repeat transmition again
+000060 c008      	rjmp T1_exit1
+                 // State Flag: 3			// After TX finished - just wait for a new TX
+                 T1_case3:
+000061 9895      	cbi PORTD, TXpwr		// Turn OFF transmitter
+000062 e800      	ldi Temp, 0b10000000
+000063 bd06      	out CLKPR, Temp
+000064 e008      	ldi Temp, 0b00001000
+000065 bd06      	out CLKPR, Temp
+000066 e000      	ldi Temp, 0x00			// high end
+000067 eb15      	ldi Temp2, 0xB5
+                 T1_exit:
+000068 dfbe      	rcall startT1			//Start T1
+                 T1_exit1:
+000069 9100 0076 	lds Temp, Task_State	// Load Task_State counter
+00006b 9503      	inc Temp				// Task_State++
+00006c 3004      	cpi Temp,4				// Tasks_State=4 then Task_State=0
+00006d f409      	brne T1_save_state
+00006e 2700      	clr Temp
+                 T1_save_state:
+00006f 9300 0076 	sts Task_State, Temp	//Store Task_State
+000071 912f      	pop Temp3
+000072 911f      	pop Temp2
+000073 910f      	pop Temp
+000074 bf0f      	out SREG, Temp
+000075 910f      	pop Temp
+000076 9518      	reti
+                 
+                 //**********************************************
+                 // T0 compare A interrupt handler
+                 // This interrupt handler used for TX bits sync
+                 //**********************************************
+                 TIMER0_COMPA:
+000077 930f      	push Temp	; 
+000078 b70f       	in Temp, SREG
+000079 930f      	push Temp
+00007a 931f      	push Temp2
+00007b 932f      	push Temp3
+00007c 93ff      	push ZH
+00007d 93ef      	push ZL
+                 
+00007e 2700      	clr Temp
+00007f bf03      	out TCCR0B, Temp		// Stop T0
+                 		
+000080 9100 0075 	lds Temp, TXbits_cnt 	// load TX bits counter
+000082 2f20      	mov Temp3, Temp			// Temp3 - bit counter
+                 
+000083 7007      	andi Temp, 0b00000111	
+000084 930f      	push Temp 				// Get current bit number at Stack
+000085 2f02      	mov Temp, Temp3 	// load TX bits counter
+000086 7f08      	andi Temp, 0xF8			// get current byte number
+000087 9506      	lsr Temp				
+000088 9506      	lsr Temp
+000089 9506      	lsr Temp				// now in Temp =current byte number
+                 		
+00008a 27ff      	clr ZH
+00008b e6e0      	ldi ZL, EncodedBits		// Init pointer to Encoded bits array
+00008c 0fe0      	add ZL, Temp			// move pointer to current byte
+00008d 8100      	ld Temp, Z 				// load current byte
+                 
+00008e 911f      	pop Temp2 				// load in Temp2 current bit number
+00008f 9513      	inc Temp2
+                 
+                 TX0_loop1:					// then shift left current byte
+000090 0f00      	lsl Temp				//	Temp2+1 times
+000091 951a      	dec Temp2
+000092 f7e9      	brne TX0_loop1			
+                 							// now in C current bit value
+                 TX0_lab1:					
+000093 f418      	brcc TX0_TX0
+000094 e60b      	ldi Temp, Tact+dT
+000095 9ac3      	sbi PORTB, TX			// set TX=1 if current bit=1
+000096 c002      	rjmp TX0_lab2			
+                 TX0_TX0:
+000097 e409      	ldi Temp, Tact-dT
+000098 98c3      	cbi PORTB, TX			// set TX=0 if current bit=0
+                 TX0_lab2:
+                 	// load TX bits counter and increment it
+000099 9523      	inc Temp3
+00009a 9320 0075 	sts TXbits_cnt, Temp3	// save new TX bits counter
+                 
+00009c 312e      	cpi Temp3, 30			// 25th, 26th and 27th bits 
+00009d f041      	breq TX0_sync1			// must have longer periods
+00009e 312f      	cpi Temp3, 31
+00009f f049      	breq TX0_sync2
+0000a0 3220      	cpi Temp3, 32
+0000a1 f051      	breq TX0_sync3
+                 
+                 	//cpi Temp3, 94		// TX nits counter = 92 then all bits are transmitted
+0000a2 3623      	cpi Temp3, 99		// TX nits counter = 92 then all bits are transmitted
+0000a3 f059      	breq TX0_all_send
+                 // else Normal operation
+                 
+0000a4 df8e      	rcall StartTX_again_1
+0000a5 c011      	rjmp TX0_exit
+                 
+                 TX0_sync1:					// Latency for 25 bit
+                 	//ldi Temp, 0x41 //0x43
+0000a6 e401      	ldi Temp, 0x41
+0000a7 bf06      	out OCR0A, Temp
+0000a8 c00a      	rjmp TX0_startT0
+                 
+                 TX0_sync2:
+                 	//ldi Temp, 0x5A//0x5D			// Latency for 26 bit
+0000a9 e508      	ldi Temp, 0x58 //0x43
+0000aa bf06      	out OCR0A, Temp
+0000ab c007      	rjmp TX0_startT0
+                 
+                 TX0_sync3:
+                 	//ldi Temp, 0x51 //0x50			// Latency for 27 bit
+0000ac e505      	ldi Temp, 0x55
+0000ad bf06      	out OCR0A, Temp
+0000ae c004      	rjmp TX0_startT0
+                 
+                 TX0_all_send:
+                 // if all bits to send are TXed then start T1 for 100 ms delay
+                 
+0000af e001      	ldi Temp, 0x01
+0000b0 e71e      	ldi Temp2, 0x7E
+0000b1 df75      	rcall StartT1			//100 ms delay after transmittion
+0000b2 c004      	rjmp TX0_exit			// goto irq exit
+                 
+                 TX0_startT0:				// start T0 at 256 divider for 25, 26, 27 bits
+0000b3 2700      	clr Temp
+0000b4 bf02        	out TCNT0, Temp
+0000b5 e004      	ldi Temp, (1<<CS02);  	//256 prescaler Set CTC Mode
+0000b6 bf03        	out TCCR0B, Temp
+                 
+                 TX0_exit:					// restore corrupted registers and exir from IRQ
+0000b7 91ef      	pop ZL
+0000b8 91ff      	pop ZH
+0000b9 912f      	pop Temp3
+0000ba 911f      	pop Temp2
+0000bb 910f      	pop Temp
+0000bc bf0f      	out SREG, Temp
+0000bd 910f      	pop Temp
+0000be 9518      	reti
+                 
+                 
+                 .include "Manchester_encoder.asm"
+                 
+                 ; Manchester_encoder routine
+                 ; input SRAM cells:
+                 ;	*TH1 - 1st number of temperature
+                 ;	*TH2 - 2nd number of temperature
+                 ;	*TH3 - 3d number of temperature
+                 ;	*Flags - B H S flags
+                 ;	*Channel - 0, 1 or 2 channel number
+                 ; OUTPUT SRAM:
+                 ;	*CH_byte, *TH1X_byte, *TH32_Byte, *CRC_byte
+                 ; ************************************************************
+                 Manch_encoder:
+0000bf 930f      	push Temp			// Store corrupted registers
+0000c0 931f      	push Temp2
+0000c1 93ff      	push ZH
+0000c2 93ef      	push ZL	
+0000c3 920f      	push r0	
+0000c4 921f      	push r1
+                 
+0000c5 9100 0073 	lds Temp, Channel
+0000c7 9300 006c 	sts CH_byte, Temp 	// Save chanel byte
+0000c9 9100 0070 	lds Temp, TH1 		// load TH1 digit
+                 
+                 //	Flags check	
+0000cb 9110 0074 	lds Temp2, Flags	// load flags byte
+0000cd 2b01      	or Temp, Temp2
+0000ce 9300 006e 	sts TH1X_byte, Temp	// Save TH1 with flags
+                 
+0000d0 9100 0072 	lds Temp, TH3 		// Temp = TH3 digit
+0000d2 9110 0071 	lds Temp2, TH2		// Temp2 = TH2 digit
+0000d4 9512      	swap Temp2
+0000d5 2b10      	or Temp2, Temp		// Combine TH2 and TH3 bits in 1 byte
+0000d6 9310 006d 	sts TH32_byte, Temp2// Save TH32_byte
+0000d8 2700      	clr Temp
+0000d9 9000 006c 	lds r0, CH_byte
+0000db 0d00      	add Temp, r0
+                 
+0000dc 9000 006d 	lds r0, TH32_byte
+0000de 0d00      	add Temp, r0
+                 
+0000df 9000 006e 	lds r0, TH1X_byte
+0000e1 0d00      	add Temp, r0
+                 
+                 	//Temp=Computed CRC
+0000e2 d034      	rcall Byte_Rotator	//Rotate CRC
+0000e3 9300 006f 	sts CRC_byte, Temp	// Save CRC in SRAM
+0000e5 9100 006e 	lds Temp, TH1X_byte	// Rotate all bytes and store them rotated
+0000e7 d02f      	rcall Byte_Rotator
+0000e8 9300 006e 	sts TH1X_byte, Temp
+0000ea 9100 006d 	lds Temp, TH32_byte
+0000ec d02a      	rcall Byte_Rotator
+0000ed 9300 006d 	sts TH32_byte, Temp
+0000ef 9100 006c 	lds Temp, CH_byte
+0000f1 d025      	rcall Byte_Rotator
+0000f2 9300 006c 	sts CH_byte, Temp
+                 // Now we have rotated array ready for manchester coding	
+0000f4 27ff      	clr ZH
+0000f5 e6e0      	ldi ZL, EncodedBits	// pointer to start of Encoded bits aray
+                 // Fill preamble bits
+0000f6 ea0a      	ldi Temp, 0b10101010
+0000f7 8300      	std Z+0, Temp
+0000f8 8301      	std Z+1, Temp
+0000f9 8302      	std Z+2, Temp
+                 //Fill sync pattern
+0000fa ea0a      	ldi Temp, 0b10101010
+0000fb 8303      	std	Z+3, Temp	
+0000fc 9100 006c 	lds Temp, CH_byte
+0000fe d02d      	rcall Mach_filler
+0000ff 8304      	std Z+4, Temp
+000100 8315      	std Z+5, Temp2
+000101 9100 006d 	lds Temp, TH32_byte
+000103 d028      	rcall Mach_filler
+000104 8306      	std Z+6, Temp
+000105 8317      	std Z+7, Temp2
+000106 9100 006e 	lds Temp, TH1X_byte
+000108 d023      	rcall Mach_filler
+000109 8700      	std Z+8, Temp
+00010a 8711      	std Z+9, Temp2
+00010b 9100 006f 	lds Temp, CRC_byte
+00010d d01e      	rcall Mach_filler
+00010e 8702      	std Z+10, Temp
+00010f 8713      	std Z+11, Temp2
+                 	// OK all bits are coded and saved
+                 // restore corrupted registers and quit
+000110 901f      	pop r1	
+000111 900f      	pop r0
+000112 91ef      	pop ZL
+000113 91ff      	pop ZH
+000114 911f      	pop Temp2
+000115 910f      	pop Temp
+000116 9508      	ret
+                 
+                 //********************************************
+                 //	Byte rotator - rotates all bits in byte
+                 // 	in r16 - Byte in
+                 // 	out r16 - Byte out
+                 //********************************************
+                 Byte_rotator:
+000117 931f      	push Temp2
+000118 2711      	clr Temp2
+000119 fd00      	sbrc Temp, 0
+00011a 6810      	sbr Temp2, 0b10000000	
+00011b fd01      	sbrc Temp, 1
+00011c 6410      	sbr Temp2, 0b01000000
+00011d fd02      	sbrc Temp, 2
+00011e 6210      	sbr Temp2, 0b00100000
+00011f fd03      	sbrc Temp, 3
+000120 6110      	sbr Temp2, 0b00010000
+000121 fd04      	sbrc Temp, 4
+000122 6018      	sbr Temp2, 0b00001000
+000123 fd05      	sbrc Temp, 5
+000124 6014      	sbr Temp2, 0b00000100
+000125 fd06      	sbrc Temp, 6
+000126 6012      	sbr Temp2, 0b00000010
+000127 fd07      	sbrc Temp, 7
+000128 6011      	sbr Temp2, 0b00000001
+000129 2f01      	mov Temp, Temp2
+00012a 911f      	pop Temp2
+00012b 9508      	ret
+                 
+                 // ***************************************
+                 // Mach_filler
+                 // in r16 - byte to encode
+                 // out r16, 17 - encoded word
+                 // ***************************************
+                 Mach_filler:
+00012c ea1a      	ldi Temp2, 0b10101010
+00012d fd07      	sbrc Temp, 7	
+00012e c002      	rjmp Manch_chk6
+00012f 6410      	sbr Temp2, 0b01000000
+000130 771f      	cbr Temp2, 0b10000000
+                 Manch_chk6:
+000131 fd06      	sbrc Temp, 6	
+000132 c002      	rjmp Manch_chk5
+000133 6110      	sbr Temp2, 0b00010000
+000134 7d1f      	cbr Temp2, 0b00100000
+                 Manch_chk5:
+000135 fd05      	sbrc Temp, 5	
+000136 c002      	rjmp Manch_chk4
+000137 6014      	sbr Temp2, 0b00000100
+000138 7f17      	cbr Temp2, 0b00001000
+                 Manch_chk4:
+000139 fd04      	sbrc Temp, 4	
+00013a c002      	rjmp Manch_chk3
+00013b 6011      	sbr Temp2, 0b00000001
+00013c 7f1d      	cbr Temp2, 0b00000010
+                 Manch_chk3:
+00013d 931f      	push Temp2
+00013e ea1a      	ldi Temp2, 0b10101010
+00013f fd03      	sbrc Temp, 3	
+000140 c002      	rjmp Manch_chk2
+000141 6410      	sbr Temp2, 0b01000000
+000142 771f      	cbr Temp2, 0b10000000
+                 Manch_chk2:
+000143 fd02      	sbrc Temp, 2	
+000144 c002      	rjmp Manch_chk1
+000145 6110      	sbr Temp2, 0b00010000
+000146 7d1f      	cbr Temp2, 0b00100000
+                 Manch_chk1:
+000147 fd01      	sbrc Temp, 1	
+000148 c002      	rjmp Manch_chk0
+000149 6014      	sbr Temp2, 0b00000100
+00014a 7f17      	cbr Temp2, 0b00001000
+                 Manch_chk0:
+00014b fd00      	sbrc Temp, 0	
+00014c c002      	rjmp Manch_chk_exit
+00014d 6011      	sbr Temp2, 0b00000001
+00014e 7f1d      	cbr Temp2, 0b00000010
+                 Manch_chk_exit:
+00014f 910f      	pop Temp
+000150 9508      	ret
+                 .include "SHTxx_driver.asm"
+                 
+                 // *********************************************************
+                 // SHT xx driver
+                 // by Alexander Yerezeyev, 2007
+                 // e-mail: wapbox@bk.ru
+                 // URL: http://alyer.frihost.net
+                 //
+                 // 
+                 // 	s_write_byte	- write byte in r16 to SHTxx
+                 // 	s_read_byte		- r16 read byte from SHTxx (r16=1 ACK, else noACK)
+                 //  s_transstart	- generates a transmission start
+                 //  s_connectionreset - reset connection
+                 //	
+                 // ********************************************************* 
+                 
+                 //******************************************************
+                 // Get Data From sensor and store it in OS format
+                 //	INPUT:	r16 	- 0 TEMP
+                 //					- 1 HUMI
+                 //	OUPUT:
+                 //******************************************************
+                 s_GetData:	
+000151 93cf      	push r28		// save corrupted registes
+000152 93bf      	push r27
+000153 93af      	push r26
+000154 939f      	push r25
+000155 938f      	push r24
+000156 937f      	push r23
+000157 936f      	push r22
+000158 935f      	push r21
+000159 934f      	push r20
+00015a 933f      	push r19
+00015b 932f      	push r18
+00015c 931f      	push r17	
+00015d 930f      	push Temp	// save TEMP/RH flag
+00015e 2700      	clr Temp			
+00015f 9300 0078 	sts ErrorCnt, Temp	// clear Error counter
+000161 e001      	ldi Temp, 1
+000162 d0ad      	rcall s_measure		// read RH data from SHTxx
+000163 d0f6      	rcall CRC_check01	// check CRC
+000164 d19b      	rcall s_Get_RH		// calculate physical RH%
+000165 2700      	clr Temp			
+000166 d0a9      	rcall s_measure		// read RH data from SHTxx
+000167 d0f2      	rcall CRC_check01	// Check CRC
+                 
+                 /*
+                 	ldi Temp, 0x0D
+                 	sts pValueH, Temp
+                 	ldi Temp, 0x1B
+                 	sts pValueL, Temp
+                 
+                 	ldi Temp, 0x03
+                 	sts pValueH, Temp
+                 	ldi Temp, 0xED
+                 	sts pValueL, Temp
+                 */
+000168 d1e1      	rcall s_Get_Temp	// calculate physical Temperature	
+000169 e002      	ldi Temp, 2
+00016a d0a5      	rcall s_measure		// read Status Register from SHT
+00016b d10e      	rcall CRC_check02	// Check CRC
+00016c d1f9      	rcall s_Get_Batt	// Get batery status
+00016d 9100 0078 	lds Temp, ErrorCnt	// Check Error counters
+00016f 2300      	tst Temp
+000170 f011      	breq sGet_noErrors
+000171 e001      	ldi Temp, 1				// set Error flag
+000172 d088      	rcall s_connectionreset	// reset connection
+                 	// no Errors were occured
+                 sGet_noErrors:
+000173 9300 007d 	sts pCommError, Temp	// save Error 
+000175 910f      	pop Temp				// restore TEMP/RH flag	
+000176 2300      	tst Temp				// compare TEMP/RH flag with 0
+000177 e000      	ldi Temp, 0
+000178 9300 0074 	sts Flags, Temp			// clear OS Flags 
+00017a f419      	brne sGet_process_HUMI	// TEMP/RH <> 0 then process as HUMI DATA
+00017b 2700      	clr Temp				// else process as TEMP DATA
+00017c d139      	rcall OS_prepare		// prepare TEMP data in SRAM for Manchester encoding
+00017d c002      	rjmp sGet_exit
+                 sGet_process_HUMI:
+00017e e001      	ldi Temp, 1
+00017f d136      	rcall OS_prepare		// prepare HUMI data in SRAM for Manchester encoding
+                 sGet_exit:
+000180 df3e      	rcall Manch_encoder		// Manchester encoding of DATA in TH32, TH1x, CRC-byte		
+000181 911f      	pop r17					// restore corrupted registers
+000182 912f      	pop r18
+000183 913f      	pop r19
+000184 914f      	pop r20
+000185 915f      	pop r21
+000186 916f      	pop r22
+000187 917f      	pop r23
+000188 918f      	pop r24
+000189 919f      	pop r25
+00018a 91af      	pop r26
+00018b 91bf      	pop r27
+00018c 91cf      	pop r28
+00018d 9508      	ret
+                 
+                 
+                 
+                 
+                 // *********************************************************
+                 // WRITE BYTE to SHTxx
+                 // INPUT: R16 - byte value
+                 // out ErrorCnt=0 if OK
+                 // ErrorCnt++ in case of Error during operation
+                 // *********************************************************
+                 s_write_byte:
+00018e 931f      	push Temp2
+00018f 9aba      	sbi DDRB,DATA;	// DATA as output  
+000190 9ab9      	sbi DDRB,SCK;	// SCK as output
+000191 2f10      	mov Temp2, Temp	// Temp2 - Byte Value
+000192 e008      	ldi Temp, 8		// 8 Bits to shift
+                 s0_loop1:
+000193 930f      	push Temp
+000194 0f11      	lsl Temp2		// Shift transmitted byte left (Get current bit)
+000195 f410      	brcc s0_0		// flag C = current bit
+000196 9ac2      	sbi PORTB, DATA	// set DATA bit if C==1
+000197 c001      	rjmp s0_lab0
+                 s0_0:
+000198 98c2      	cbi PORTB, DATA // clear DATA bit if C==0
+                 s0_lab0:
+000199 e002      	ldi Temp,0x02
+00019a d01a      	rcall delay_Xus // wait 2 us
+00019b 9ac1      	sbi PORTB, SCK	// Set SCK
+00019c e005      	ldi Temp,0x05	// wait 5 us
+00019d d017      	rcall delay_Xus				
+00019e 98c1      	cbi PORTB, SCK	// Clear SCK
+00019f 910f      	pop Temp		// Restore counter value
+0001a0 950a      	dec Temp		// dec counter
+0001a1 f789      	brne s0_loop1	// repeat loop until counter <>0
+                 
+0001a2 9ac2      	sbi PORTB,DATA; // release DATA-line
+0001a3 98ba      	cbi DDRB,DATA; 	// DATA as input
+0001a4 e002      	ldi Temp,0x02
+0001a5 d00f      	rcall delay_Xus	// wait 2 us				
+0001a6 9ac1      	sbi PORTB,SCK;	// clk #9 for ack
+0001a7 e005      	ldi Temp,0x05
+0001a8 d00c      	rcall delay_Xus	// pulswith approx. 5 us
+0001a9 9bb2      	sbis PINB, DATA	// check if DATA is low/
+0001aa c001      	rjmp s0_OK		// DATA is low - ACK is OK
+0001ab d003      	rcall ErrorCntInc// else ACK is BAD - increment Error counter
+                 s0_OK:
+0001ac 98c1      	cbi PORTB,SCK;	// clear SCK
+0001ad 911f      	pop Temp2		// restore corupted registers
+0001ae 9508      	ret				// return
+                 
+                 //************************************************
+                 // ErrorCntIncrementer
+                 //************************************************
+                 ErrorCntInc:
+0001af 9100 0078 	lds Temp, ErrorCnt
+0001b1 9503      	inc Temp
+0001b2 9300 0078 	sts ErrorCnt, Temp
+0001b4 9508      	ret
+                 
+                 //************************************************
+                 // in Temp - us @4MHz
+                 //************************************************
+                 delay_Xus:
+0001b5 930f      	push Temp
+                 delay_X_loop:
+0001b6 0000      	nop
+0001b7 0000      	nop
+0001b8 0000      	nop
+0001b9 0000      	nop
+0001ba 950a      	dec Temp
+0001bb f7d1      	brne delay_X_loop
+0001bc 910f      	pop Temp
+0001bd 9508      	ret
+                 
+                 // *********************************************************
+                 // READ BYTE from SHTxx
+                 // INPUT: R16 = 1 ACK
+                 //		  R16=0 no ACK 
+                 // out ErrorCnt=0 if OK
+                 // ErrorCnt++ in case of Error during operation
+                 // *********************************************************
+                 
+                 s_read_byte:
+0001be 931f      	push Temp2		// save corrupted register
+0001bf 930f      	push Temp		// - save ACK info
+0001c0 9ab9      	sbi DDRB, SCK;	// SCK as output
+0001c1 9ac2      	sbi PORTB,DATA; // release DATA-line
+0001c2 98ba      	cbi DDRB,DATA;	// DATA as input
+0001c3 2711      	clr Temp2		// clear Temp2 - input shift register
+0001c4 e008      	ldi Temp, 8		// RX bits counter =8
+                 s1_loop1:
+0001c5 930f      	push Temp		// save counter value
+0001c6 9ac1      	sbi PORTB, SCK	// Set SCK pin
+0001c7 e005      	ldi Temp, 5		
+0001c8 dfec      	rcall delay_Xus	// Delay 5 us	
+0001c9 99b2      	sbic PINB, DATA	// if DATA pin ==0 rjmp s1_read0
+0001ca c003      	rjmp s1_read1	// if DATA pin ==1 rjmp s1_read1
+                 s1_read0:
+0001cb 9488      	clc				// clear C
+0001cc 1f11      	rol Temp2		// shift Temp2 <- C
+0001cd c002      	rjmp s1_lab1	// 0 bit received
+                 s1_read1:
+0001ce 9408      	sec				// set C
+0001cf 1f11      	rol Temp2		// shift Temp2 <- C
+                 s1_lab1:			// 1 bit received
+0001d0 98c1      	cbi PORTB, SCK	// clear SCk bit (bit received)
+0001d1 e001      	ldi Temp, 1
+0001d2 dfe2      	rcall delay_Xus	// delay 1 us
+0001d3 910f      	pop Temp		// restore bit counter
+0001d4 950a      	dec Temp		// dec bit counter
+0001d5 f779      	brne s1_loop1	// repeat until 8 bits received
+                 	// now in Temp2 - readed value
+0001d6 9aba      	sbi DDRB, DATA	// configure DATA as output
+0001d7 910f      	pop Temp  		// get ACK info
+0001d8 2300      	tst Temp		// check ACK info 
+0001d9 f411      	brne s1_ACK1	//	if <> 0
+0001da 9ac2      	sbi PORTB, DATA // if noACK set DATA pin
+0001db c001      	rjmp s1_lab2
+                 s1_ACK1:	
+0001dc 98c2      	cbi PORTB, DATA	// if ACK clear DATA pin
+                 s1_lab2:
+0001dd e001      	ldi Temp, 1
+0001de dfd6      	rcall delay_Xus
+0001df 9ac1      	sbi PORTB,SCK;	// SCK=1; //clk #9 for ack
+0001e0 e005      	ldi Temp, 5
+0001e1 dfd3      	rcall delay_Xus	// delay 5 us
+0001e2 98c1      	cbi PORTB, SCK	// SCK=0
+0001e3 98ba      	cbi DDRB, DATA	// configure DATA as input
+0001e4 2f01      	mov Temp, Temp2	// Temp <- received byte
+0001e5 911f      	pop Temp2		// restore corrupted byte
+0001e6 9508      	ret				// return
+                 
+                 // *********************************************************
+                 // TRANSMISSION START GENERATOR
+                 //----------------------------------------------------------
+                 // generates a transmission start
+                 // 	_____ 		  ________
+                 // DATA: |_______|
+                 // 			___   ___
+                 // SCK : ___| |___| |______
+                 // *********************************************************
+                 s_transstart:
+0001e7 930f      	push Temp
+0001e8 9aba      	sbi DDRB, DATA; //DATA as output  
+0001e9 9ab9      	sbi DDRB, SCK; //SCK as output 
+0001ea 9ac2      	sbi PORTB,DATA;//DATA=1;
+0001eb 98c1      	cbi PORTB,SCK;// SCK=0; //Initial state
+0001ec e001       	ldi Temp, 01
+0001ed dfc7      	rcall delay_Xus
+0001ee 9ac1      	sbi PORTB,SCK;//SCK=1;
+0001ef dfc5      	rcall delay_Xus
+0001f0 98c2      	cbi PORTB,DATA;//DATA=0;
+0001f1 dfc3       	rcall delay_Xus
+0001f2 98c1      	cbi PORTB,SCK;//SCK=0;
+0001f3 dfc1       	rcall delay_Xus
+0001f4 9ac1      	sbi PORTB,SCK;//SCK=1;
+0001f5 dfbf       	rcall delay_Xus
+0001f6 9ac2      	sbi PORTB,DATA;//DATA=1;
+0001f7 dfbd       	rcall delay_Xus
+0001f8 98c1      	cbi PORTB,SCK;//SCK=0;
+0001f9 910f      	pop Temp
+0001fa 9508      	ret
+                 
+                 // *********************************************************
+                 // COMMUNICATION RESET
+                 //----------------------------------------------------------------------------------
+                 // communication reset: DATA-line=1 and at least 9 SCK cycles followed by transstart
+                 // _____________________________________________________ ________
+                 // DATA: |_______|
+                 // 			_ 	 _ 	  _    _ 	_ 	 _ 	  _    _ 	_ 		___   ___
+                 // SCK : __| |__| |__| |__| |__| |__| |__| |__| |__| |______| |___| |______
+                 // *********************************************************
+                 
+                 s_connectionreset:
+0001fb 930f      	push Temp
+0001fc 931f      	push Temp2
+                 
+0001fd 9aba      	sbi DDRB,DATA; //DATA as output  
+0001fe 9ab9      	sbi DDRB, SCK; //SCK as output 
+0001ff 9ac2      	sbi PORTB,DATA;cbr(PORTD,SCK);//DATA=1; SCK=0; //Initial state
+                 
+000200 e001      	ldi Temp, 1
+000201 dfb3      	rcall Delay_Xus
+000202 e009      	ldi Temp, 9
+                 loop:
+000203 930f      	push Temp
+000204 9ac1      	sbi PORTB,SCK;  //SCK=1;
+000205 e001      	ldi Temp, 1
+000206 dfae        	rcall Delay_Xus
+000207 98c1        	cbi PORTB,SCK;  //SCK=0;
+000208 dfac        	rcall Delay_Xus
+000209 910f      	pop Temp
+00020a 950a      	dec Temp
+00020b f7b9      	brne loop
+00020c dfda      	rcall s_transstart
+00020d 911f      	pop Temp2
+00020e 910f      	pop Temp
+00020f 9508      	ret
+                 
+                 
+                 // ****************************************************************************
+                 //	INPUT: 	r16 	= 0 Temperature measurement
+                 //					= 1 Humidity measurement
+                 //					= 2 Status egister reading
+                 // 	OUTPUT: r16 - 	0 		OK
+                 //					else - Error
+                 //			SRAM:	pValueH	-MSB reading
+                 //					pValueL -LSB reading
+                 //					pCRC	-CRC reading
+                 //					ErrorCnt++ in case of Error during operation
+                 // ****************************************************************************
+                 s_measure:
+000210 931f      	push Temp2			// Save corrupted registers
+000211 932f      	push Temp3
+000212 dfd4      	rcall s_transstart; // transmission start
+000213 2722      	clr Temp3			// Temp3 = 0 RH or TEMP else STATUS_REG
+000214 2300      	tst Temp			// test R16
+000215 f069      	breq s4_TEMP		// r16 = 0 measure temperature
+000216 3001      	cpi Temp, 01		// r16 = 1 measure humidity
+000217 f031      	breq s4_HUMI
+                 						// else read status	register		
+000218 e021      	ldi Temp3, 01			// Temp3 =1 STATUS_REG
+000219 e007      	ldi Temp, STATUS_REG_R	// command code
+00021a 9300 007c 	sts pCommand, Temp		// save command code
+00021c df71      	rcall s_write_byte		// write command to SHT11
+00021d c00a      	rjmp s4_wait_data		// wait for data ready
+                 	// measure humidity	
+                 s4_HUMI:
+00021e e005      	ldi Temp, MEASURE_HUMI  // command code
+00021f 9300 007c 	sts pCommand, Temp		// save command code
+000221 df6c      	rcall s_write_byte		// write command to SHT11
+000222 c005      	rjmp s4_wait_data		// wait for data ready
+                 
+                 	// measure temperature
+                 s4_TEMP:
+000223 e003      	ldi Temp, MEASURE_TEMP	// command code
+000224 9300 007c 	sts pCommand, Temp		// save command code
+000226 df67      	rcall s_write_byte		// write command to SHT11
+000227 c000      	rjmp s4_wait_data		// wait for data ready
+                 
+                 s4_wait_data:
+000228 e604      	ldi Temp, 100			// 100us delay for DATA RAMP
+000229 df8b      	rcall delay_Xus
+                 	// this loop wait 450 ms until DATA pin became LOW
+00022a e011      	ldi Temp2, 1			//set error flag
+00022b e006      	ldi Temp, 6
+                 s4_loop1:
+00022c 930f      	push Temp
+00022d ef0f      	ldi Temp, 255
+                 s4_loop2:
+00022e 930f      	push Temp	
+00022f ef0f      	ldi Temp, 255
+                 s4_loop3:
+000230 930f      	push Temp	
+000231 9bb2      	sbis PINB, DATA			// check DATA state
+000232 c00f      	rjmp s4_loop_exit		// if LOW exit from loop
+000233 910f      	pop Temp
+000234 950a      	dec Temp
+000235 f7d1      	brne s4_loop3	
+000236 910f      	pop Temp
+000237 950a      	dec Temp
+000238 f7a9      	brne s4_loop2
+000239 910f      	pop Temp
+00023a 950a      	dec Temp
+00023b f781      	brne s4_loop1
+00023c 9100 0078 	lds Temp, ErrorCnt
+00023e 9503      	inc Temp
+00023f 9300 0078 	sts ErrorCnt, Temp
+000241 c004      	rjmp s4_loop_exit2
+                 	// end of DATA wait loop
+                 s4_loop_exit:
+000242 910f      	pop Temp
+000243 910f      	pop Temp
+000244 910f      	pop Temp
+000245 2711      	clr Temp2				//clr error flag if DATA setted low in 450ms
+                 s4_loop_exit2:	
+000246 2322      	tst Temp3				// check TEMP3
+000247 f421      	brne s_read_status_reg	// TEMP3 <> 0 - read status register
+                 	// read measured data
+000248 e001      	ldi Temp, 1 			// ACK
+000249 df74      	rcall s_read_byte		// read MSB byte
+00024a 9300 0079 	sts pValueH, Temp		// save MSB byte in SRAM
+                 s_read_status_reg:
+00024c e001      	ldi Temp, 1 			// ACK
+00024d df70      	rcall s_read_byte		// read LSB byte
+00024e 9300 007a 	sts pValueL, Temp		// save LSB byte in SRAM
+000250 2700      	clr Temp 				// noACK
+000251 df6c      	rcall s_read_byte		// read CRC
+000252 9300 007b 	sts pCRC, Temp			// save CRC in SRAM
+000254 2311      	tst Temp2				// read Error flag
+000255 f009      	breq s4_exit			
+000256 df58      	rcall ErrorCntInc		// if Error <>0 increment of Error counter
+                 s4_exit:	
+000257 912f      	pop Temp3				// restore corrupted registers
+000258 911f      	pop Temp2
+000259 9508      	ret						// return
+                 
+                 // **********************************************
+                 // CRC check algorith #1
+                 // CRC calculation of pCommand, pValueH, pValueL and compare with pCRC
+                 // INPUT SRAM:
+                 //	pCommand - command code
+                 //	pValueH	- MSB readout
+                 //	pValueL	- LSB readout
+                 //	pCRC	- CRC readout
+                 // OUTPUT SRAM:
+                 //	CRC_gen - calcualted CRC
+                 // 	if (pCRC)== CRC_gen Temp =  0 else ErroCnt increment
+                 // **********************************************
+                 
+                 CRC_check01:
+00025a 931f      	push Temp2
+00025b 2700      	clr Temp			// clear CRC
+00025c 9300 007f 	sts CRC_gen, Temp
+00025e 9100 007c 	lds Temp, pCommand
+000260 d034      	rcall CRC_generator
+000261 9300 007f 	sts CRC_gen, Temp
+000263 9100 0079 	lds Temp, pValueH
+000265 d02f      	rcall CRC_generator
+000266 9300 007f 	sts CRC_gen, Temp
+000268 9100 007a 	lds Temp, pValueL
+00026a d02a      	rcall CRC_generator
+00026b deab      	rcall Byte_Rotator	// reverse calculated CRC
+00026c 9300 007f 	sts CRC_gen, Temp	// save reversed CRC
+00026e 9110 007b 	lds Temp2, pCRC
+000270 1b01      	sub Temp, Temp2
+000271 f009      	breq CRC1_OK
+000272 e001      	ldi Temp, 1
+                 CRC1_OK:
+000273 9110 0078 	lds Temp2, ErrorCnt
+000275 0f10      	add Temp2, Temp
+000276 9310 0078 	sts ErrorCnt, Temp2
+000278 911f      	pop Temp2
+000279 9508      	ret
+                 // **********************************************
+                 // CRC check algorith#2
+                 // CRC calculation of pCommand, pValueL and compare with pCRC
+                 // INPUT SRAM:
+                 //	pCommand - command code
+                 //	pValueL	- LSB readout
+                 //	pCRC	- CRC readout
+                 // OUTPUT SRAM:
+                 //	CRC_gen - calcualted CRC
+                 // 	if (pCRC)== CRC_gen Temp =  0 else ErroCnt increment
+                 // **********************************************
+                 
+                 CRC_check02:
+00027a 931f      	push Temp2
+00027b 2700      	clr Temp
+00027c 9300 007f 	sts CRC_gen, Temp
+00027e 9100 007c 	lds Temp, pCommand
+000280 d014      	rcall CRC_generator
+000281 9300 007f 	sts CRC_gen, Temp
+000283 9100 007a 	lds Temp, pValueL
+000285 d00f      	rcall CRC_generator
+000286 de90      	rcall Byte_Rotator	// reverse calculated CRC
+000287 9300 007f 	sts CRC_gen, Temp
+000289 9110 007b 	lds Temp2, pCRC
+00028b 1b01      	sub Temp, Temp2
+00028c f009      	breq CRC2_OK
+00028d e001      	ldi Temp, 1
+                 CRC2_OK:
+00028e 9110 0078 	lds Temp2, ErrorCnt
+000290 0f10      	add Temp2, Temp
+000291 9310 0078 	sts ErrorCnt, Temp2
+000293 911f      	pop Temp2
+000294 9508      	ret
+                 
+                 
+                 //******************************************************
+                 // CRC linear generator routine
+                 // -----------------------------------------------------
+                 // INPUT: 	Temp	- input Value
+                 //			Temp3	- previous CRC state
+                 // OUPUT:	Temp	- new calculated CRC
+                 //******************************************************
+                 
+                 CRC_generator:
+000295 931f      	push Temp2
+000296 932f      	push Temp3
+000297 2f10      	mov Temp2, Temp
+                 	///Temp2 - value
+                 	///Temp3 - CRC
+000298 9120 007f 	lds Temp3, CRC_gen
+00029a e008      	ldi Temp, 8
+                 CRC_loop:
+00029b 930f      	push Temp
+00029c 0f11      	lsl Temp2
+00029d f048      	brcs CRC_bit1
+                 //here when measure bit 7 =0
+                 CRC_bit0:	
+00029e fd27      	sbrc Temp3, 7
+00029f c002      	rjmp CRC_bit01
+                 //here when Mbit7=0 and Cbit7=0
+                 CRC_bit00:	
+0002a0 0f22      	lsl Temp3
+0002a1 c00d      	rjmp CRC_next_bit	
+                 //here when Mbit7=0 and Cbit7=1
+                 CRC_bit01:
+0002a2 0f22      	lsl Temp3
+0002a3 e300      	ldi Temp, 0b00110000
+0002a4 2720      	eor Temp3, Temp
+0002a5 6021      	sbr Temp3, 0b0000001
+0002a6 c008      	rjmp CRC_next_bit			
+                 //here when measure bit 7 =1
+                 CRC_bit1:
+0002a7 fd27      	sbrc Temp3, 7
+0002a8 c005      	rjmp CRC_bit11
+                 //here when Mbit7=1 and Cbit7=0
+                 CRC_bit10:
+0002a9 0f22      	lsl Temp3
+0002aa e300      	ldi Temp, 0b00110000
+0002ab 2720      	eor Temp3, Temp
+0002ac 6021      	sbr Temp3, 0b0000001
+0002ad c001      	rjmp CRC_next_bit			
+                 //here when Mbit7=1 and Cbit7=1	
+                 CRC_bit11:
+0002ae 0f22      	lsl Temp3
+                 CRC_next_bit:
+0002af 910f      	pop Temp
+0002b0 950a      	dec Temp
+0002b1 f749      	brne CRC_loop		
+0002b2 2f02      	mov Temp, Temp3
+0002b3 912f      	pop Temp3
+0002b4 911f      	pop Temp2
+0002b5 9508      	ret	
+                 
+                 
+                 //******************************************************
+                 //OS conversion
+                 //in R16 = 	0 - Temp
+                 //			1 - HUMI
+                 //******************************************************		
+                 OS_prepare:
+                 
+0002b6 2300      	tst Temp
+0002b7 e000      	ldi Temp, 0
+0002b8 9300 0074 	sts Flags, Temp
+0002ba f4f1      	brne OS_prepare_HUMI	
+                 OS_prepare_TEMP:
+0002bb e408      	ldi Temp, 0b01001000
+0002bc 9300 0073 	sts Channel, Temp
+0002be 9100 0082 	lds Temp, pTemp
+0002c0 700f      	andi Temp, 0b00001111
+0002c1 9300 0071 	sts TH2, Temp
+0002c3 9100 0082 	lds Temp, pTemp
+0002c5 7f00      	andi Temp, 0b11110000
+0002c6 9502      	swap Temp
+0002c7 9300 0070 	sts TH1, Temp
+0002c9 9100 0083 	lds Temp, pTemp_dec
+0002cb 7f00      	andi Temp, 0b11110000
+0002cc 9502      	swap Temp
+0002cd 9300 0072 	sts TH3, Temp
+0002cf 9100 0084 	lds Temp, pTemp_sign
+0002d1 2300      	tst Temp
+0002d2 f0d1      	breq OS_prepare_Batt
+                 Neg_TEMP:
+0002d3 9100 0074 	lds Temp, Flags
+0002d5 6200      	sbr Temp, (1<<Sign)
+0002d6 9300 0074 	sts Flags, Temp
+0002d8 c014      	rjmp OS_prepare_Batt
+                 OS_prepare_HUMI:
+0002d9 e00f      	ldi Temp, 0b00001111
+0002da 9300 0073 	sts Channel, Temp
+0002dc 9100 0080 	lds Temp, pHUMI
+0002de 7f00      	andi Temp, 0b11110000
+0002df 9502      	swap Temp
+0002e0 9300 0070 	sts TH1, Temp
+0002e2 9100 0080 	lds Temp, pHUMI
+0002e4 700f      	andi Temp, 0b00001111
+0002e5 9300 0071 	sts TH2, Temp
+0002e7 9100 0081 	lds Temp, pHUMI_dec
+0002e9 7f00      	andi Temp, 0b11110000
+0002ea 9502      	swap Temp
+0002eb 9300 0072 	sts TH3, Temp
+                 OS_prepare_Batt:
+0002ed 9100 007e 	lds Temp, pBattery
+0002ef 2300      	tst Temp
+0002f0 f029      	breq OS_prepare_CommError
+0002f1 9100 0074 	lds Temp, Flags
+0002f3 6800      	sbr Temp, (1<<Batt)
+0002f4 9300 0074 	sts Flags, Temp
+                 OS_prepare_CommError:
+0002f6 9100 007d 	lds Temp, pCommError
+0002f8 2300      	tst Temp
+0002f9 f029      	breq OS_prepare_exit
+0002fa 9100 0074 	lds Temp, Flags
+0002fc 6400      	sbr Temp, (1<<ComError)
+0002fd 9300 0074 	sts Flags, Temp
+                 OS_prepare_exit:
+0002ff 9508      	ret
+                 
+                 //******************************************************
+                 // Convert RH data to physical value
+                 // INPUT: pValueH, pValue L - MSB and LSB of readout
+                 // OUTPUT: SRAM pHUMI - BCD coded RH% 1st and 2nd digits
+                 //				pHUMI_dec - BCD coded 3d digit
+                 //******************************************************
+                 s_Get_RH:
+                 
+000300 9100 0079 	lds Temp, pValueH	// Temp = MSB
+000302 9110 007a 	lds Temp2, pValueL	// Temp2 = LSB
+000304 930f      	push Temp
+000305 931f      	push Temp2	
+000306 9506      	lsr Temp		//2
+000307 9517      	ror Temp2
+000308 9506      	lsr Temp		//4
+000309 9517      	ror Temp2
+00030a 9506      	lsr Temp		//8
+00030b 9517      	ror Temp2
+00030c 9506      	lsr Temp		//16
+00030d 9517      	ror Temp2	
+                 	// Temp2 = Readout/16 	
+00030e 361c      	cpi Temp2, 108
+00030f f060      	brlo SO_RH_lo108// branch if (Readout/16)<108 rjmp SO_RH_more108
+                 SO_RH_more108:
+                 //a=111	(Readout/26 > 108)
+                 	//a=111
+000310 e60f      	ldi r16, 111	
+000311 914f      	pop r20			// restore ValueL	
+000312 915f      	pop r21			//rstore ValueH
+000313 2766      	clr r22
+000314 2777      	clr r23
+000315 d08b      	rcall Mul32b	// r20r21=111*a
+                 //b=2893*16
+000316 ed00      	ldi r16, 0xD0
+000317 eb14      	ldi r17, 0xB4
+000318 2722      	clr r18
+000319 2733      	clr r19
+00031a d055      	rcall Add32		//r20r21 = 111*readout+2893*16
+00031b c00b      	rjmp RH4096_rdy	// RH*4096 is ready
+                 SO_RH_lo108:
+                 //a=143	(Readout/26 <108)
+00031c e80f      	ldi r16, 143		
+00031d 914f      	pop r20			// restore ValueL	
+00031e 915f      	pop r21			//rstore ValueH
+00031f 2766      	clr r22
+000320 2777      	clr r23
+000321 d07f      	rcall Mul32b	// r20r21=143*a
+                 //b=-512*16=
+000322 2700      	clr r16
+000323 e210      	ldi r17, 0x20
+000324 2722      	clr r18
+000325 2733      	clr r19
+000326 d04f      	rcall Sub32		//r20r21 = 143*readout-512*16
+                 
+                 RH4096_rdy:
+000327 e00a      	ldi r16, 10
+000328 d078      	rcall Mul32b	//r20r21 = (4096*RH)*10
+000329 e000      	ldi r16, 0x00
+00032a e110      	ldi r17, 0x10
+00032b d05a      	rcall Div32w	//r20r21 = ((4096*RH)*10)/4096=10*RH%
+00032c e005      	ldi r16, 5
+00032d 2711      	clr r17
+00032e 2722      	clr r18
+00032f 2733      	clr r19
+000330 d03f      	rcall Add32		//r20r21 = 10*RH%+5%
+000331 e00a      	ldi r16, 10
+000332 d052      	rcall Div32b	// r20r21= (10*RH%+5%)/10
+                 //	now r20r21 - RH%
+000333 2f04      	mov r16, r20 //r16 = r20 = low (RH%)
+000334 3604      	cpi r16, 100 // compare r16 with 100
+000335 f008      	brlo RH_lower100 // branch if r16<100
+000336 e604      	ldi r16, 100
+                 RH_lower100:
+000337 2711      	clr r17
+000338 d082      	rcall Bin2BCD16	//r21r20 = BCD (RH%) = {x x x x D1 D1 D1 D1} {D2 D2 D2 D2 D3 D3 D3 D3}
+                 	// preforme r20 = r20 >> 4; r16 = (0x0F&R20)<<4
+000339 2700      	clr r16			
+00033a 9546      	lsr r20
+00033b 9507      	ror r16
+00033c 9546      	lsr r20
+00033d 9507      	ror r16
+00033e 9546      	lsr r20
+00033f 9507      	ror r16
+000340 9546      	lsr r20
+000341 9507      	ror r16			// r20 = {0 0 0 0 D2 D2 D2 D2}; r16 = {D3 D3 D3 D3 0 0 0 0}	
+000342 705f      	andi r21, 0b00001111
+000343 9552      	swap r21			// r21 = {D1 D1 D1 D1 0 0 0 0}
+000344 2b45      	or r20, r21			// r20 = r20 | r21 = {D1 D1 D1 D1 D2 D2 D2 D2}
+000345 9340 0080 	sts pHUMI, r20		// save H1 H2
+000347 9300 0081 	sts pHUMI_dec, r16 	// save H3
+                 //	ldi Temp, HUMI_ID
+                 //	sts SensorID, Temp
+000349 9508      	ret
+                 
+                 //******************************************************
+                 // Convert Temperature data to physical value
+                 //
+                 // INPUT: pValueH, pValue L - MSB and LSB of readout
+                 // OUTPUT: SRAM pTEMP - BCD coded TEMPERATURE 1st and 2nd digits
+                 //				pTEMP_dec - BCD coded TEMPERATURE 3d digit
+                 //******************************************************
+                 //******************************************************
+                 s_Get_TEMP:
+                 
+00034a 9150 0079 	lds r21, pValueH	//r21r20 - readout TEMP
+00034c 9140 007a 	lds r20, pValueL
+00034e 2766      	clr r22
+00034f 2777      	clr r23
+000350 e703      	ldi r16, 0x73		//
+000351 e01f      	ldi r17, 0x0f		// 3960+5 (for 3.0V)
+000352 2722      	clr r18
+000353 2733      	clr r19
+000354 d020      	rcall Sub32sign		// r21r20 - r21r20-(3960-5) for 3.0V
+000355 f43e      	brtc Temp_pos		// branch if T cleared (positive temperature)
+000356 e005      	ldi r16, 0x05		//
+000357 2711      	clr r17		// 3960+5 (for 3.0V)
+000358 2722      	clr r18
+000359 2733      	clr r19
+00035a d015      	rcall Add32		// r21r20= r21r20+5 for 3.0V
+00035b e001      	ldi Temp, 0x01		// set Negative Temperature bit
+00035c c001      	rjmp Temp_lab1
+                 Temp_pos:
+00035d 2700      	clr Temp			// clear Negative Temperature bit
+                 Temp_lab1:
+00035e 9300 0084 	sts pTemp_sign, Temp	// store Negative Temperature flag
+000360 d058      	rcall Bin2BCD20			// r21r20 = BCD (SO-(3960-5)) = {T1 T1 T1 T1 T2 T2 T2 T2} {T3 T3 T3 T3 xxxx}
+000361 9350 0082 	sts pTemp, r21			// store TH1TH2
+000363 9340 0083 	sts pTemp_dec, r20		// store TH3 in SRAM
+                 //	ldi Temp, TEMP_ID
+                 //	sts SensorID, Temp
+000365 9508      	ret						//return
+                 
+                 //******************************************************
+                 // Conver BAttery status and store in SRAM
+                 //******************************************************
+                 s_Get_Batt:
+000366 9100 007a 	lds Temp, pValueL
+000368 7400      	andi Temp, 0b01000000
+000369 e000      	ldi Temp, 0
+00036a f009      	breq s_Get_Batt_OK
+00036b 9503      	inc Temp
+                 s_Get_Batt_OK:
+00036c 9300 007e 	sts pBattery, Temp
+00036e 9508      	ret
+                 
+                 .include "MAth32.asm"
+                 
+                 ;***************************************************************************
+                 ;*
+                 ;* Add32 == 32+32 Bit Unsigned Addition
+                 ;*
+                 ;* add1L::add1H  +  add2L::add2H  =  add1L::add1H
+                 ;*     item             item             sum
+                 ;* r20r21r22r23  +  r16r17r18r19  =  r20r21r22r23
+                 ;*
+                 ;***************************************************************************
+                 .def    add20   = r16   ; item 2 byte 0 (LSB)
+                 .def    add21   = r17   ; item 2 byte 1
+                 .def    add22   = r18   ; item 2 byte 2
+                 .def    add23   = r19   ; item 2 byte 3 (MSB)
+                 .def    add10   = r20   ; item 1 byte 0 (LSB)
+                 .def    add11   = r21   ; item 1 byte 1
+                 .def    add12   = r22   ; item 1 byte 2
+                 .def    add13   = r23   ; item 1 byte 3 (MSB)
+                 
+00036f f02e      Add32sign:      brts    Sub32sign       ;
+000370 0f40      Add32:          add     add10,add20     ;Add low bytes
+000371 1f51                      adc     add11,add21     ;Add higher bytes with carry
+000372 1f62                      adc     add12,add22     ;
+000373 1f73                      adc     add13,add23     ;
+000374 9508                      ret                     ;
+                 
+                 ;***************************************************************************
+                 ;*
+                 ;* Sub32 == 32-32 Bit Unsigned Subtraction
+                 ;*
+                 ;* sub1L::sub1H  -  sub2L::sub2H  =  sub1L::sub1H
+                 ;*   minuend         subtrahend       difference
+                 ;* r20r21r22r23  -  r16r17r18r19  =  r20r21r22r23
+                 ;*
+                 ;***************************************************************************
+                 .def    sub20   = r16   ; subtrahend byte 0 (LSB)
+                 .def    sub21   = r17   ; subtrahend byte 1
+                 .def    sub22   = r18   ; subtrahend byte 2
+                 .def    sub23   = r19   ; subtrahend byte 3 (MSB)
+                 .def    sub10   = r20   ; minuend byte 0 (LSB)
+                 .def    sub11   = r21   ; minuend byte 1
+                 .def    sub12   = r22   ; minuend byte 2
+                 .def    sub13   = r23   ; minuend byte 3 (MSB)
+                 
+000375 94e8      Sub32sign:      clt                     ;sign +
+000376 1b40      Sub32:          sub     sub10,sub20     ;Subtract low bytes
+000377 0b51                      sbc     sub11,sub21     ;Subtract higher bytes with carry
+000378 0b62                      sbc     sub12,sub22     ;
+000379 0b73                      sbc     sub13,sub23     ;
+00037a f448                      brcc    Return32u       ;return clear carry if result>=0
+00037b 9468                      set                     ;sign -
+00037c 5041      Neg32:          subi    sub10,1         ;if result<0
+00037d 4050                      sbci    sub11,0         ;   neg result
+00037e 4060                      sbci    sub12,0         ;
+00037f 4070                      sbci    sub13,0         ;   (dec result)
+000380 9540      Com32:          com     sub10           ;       &
+000381 9550                      com     sub11           ;   (com result)
+000382 9560                      com     sub12           ;
+000383 9570                      com     sub13           ;   return set carry after com
+000384 9508      Return32u:      ret      
+                 
+                 ;***************************************************************************
+                 ;*
+                 ;* Div32 == 32/32 Bit Unsigned Division
+                 ;*
+                 ;* dd32uL::dd32uH / dv32uL::dv32uH = dres32uL::dres32uH (drem32uL::drem32uH)
+                 ;*    dividend          divisor            result            remainder
+                 ;*  r20r21r22r23  /  r16r17r18r19  =    r20r21r22r23        r24r25r26r27
+                 ;*
+                 ;***************************************************************************
+                 .def    dv32u0   =r16   ; divisor byte 0 (LSB)
+                 .def    dv32u1   =r17   ; divisor byte 1
+                 .def    dv32u2   =r18   ; divisor byte 2
+                 .def    dv32u3   =r19   ; divisor byte 3 (MSB)
+                 .def    dres32u0 =r20   ; result byte 0 (LSB)
+                 .def    dres32u1 =r21   ; result byte 1
+                 .def    dres32u2 =r22   ; result byte 2
+                 .def    dres32u3 =r23   ; result byte 3 (MSB)
+                 .def    dd32u0   =r20   ; dividend byte 0 (LSB)
+                 .def    dd32u1   =r21   ; dividend byte 1
+                 .def    dd32u2   =r22   ; dividend byte 2
+                 .def    dd32u3   =r23   ; dividend byte 3 (MSB)
+                 .def    drem32u0 =r24   ; remainder byte 0 (LSB)
+                 .def    drem32u1 =r25   ; remainder byte 1
+                 .def    drem32u2 =r26   ; remainder byte 2
+                 .def    drem32u3 =r27   ; remainder byte 3 (MSB)
+                 .def    dcnt32u  =r28   ; loop counter
+                 
+000385 2711      Div32b:         clr     dv32u1          ;divisor is one byte
+000386 2722      Div32w:         clr     dv32u2          ;           two bytes
+000387 2733      Div32t:         clr     dv32u3          ;           three bytes
+000388 2788      Div32:          clr     drem32u0        ;clear 4 lower remainde byte
+000389 2799                      clr     drem32u1        ;
+00038a 27aa                      clr     drem32u2        ;
+00038b 1bbb                      sub     drem32u3,drem32u3;and carry
+00038c e2c1                      ldi     dcnt32u,33      ;init loop counter
+00038d 1f44      d32u_loop:      rol     dd32u0          ;shift left dividend
+00038e 1f55                      rol     dd32u1          ;
+00038f 1f66                      rol     dd32u2          ;
+000390 1f77                      rol     dd32u3          ;
+000391 95ca                      dec     dcnt32u         ;decrement loop counter
+000392 f369                      breq    Com32           ;if counter zero invert result
+000393 1f88                      rol     drem32u0        ;shift dividend into remainder
+000394 1f99                      rol     drem32u1        ;
+000395 1faa                      rol     drem32u2        ;
+000396 1fbb                      rol     drem32u3        ;
+000397 1b80                      sub     drem32u0,dv32u0 ;remainder = remainder - divisor
+000398 0b91                      sbc     drem32u1,dv32u1 ;
+000399 0ba2                      sbc     drem32u2,dv32u2 ;
+00039a 0bb3                      sbc     drem32u3,dv32u3 ;
+00039b f788                      brcc    d32u_loop       ;clear carry to be shifted into res
+00039c 0f80                      add     drem32u0,dv32u0 ;if result negative
+00039d 1f91                      adc     drem32u1,dv32u1 ;   restore remainder
+00039e 1fa2                      adc     drem32u2,dv32u2 ;
+00039f 1fb3                      adc     drem32u3,dv32u3 ;
+0003a0 cfec                      rjmp    d32u_loop       ;   set carry to be shifted into res
+                 
+                 ;***************************************************************************
+                 ;*
+                 ;* Mul32 == 8x16 Bit Unsigned Multiplication
+                 ;*
+                 ;* mp32uL::mp32uH  x  mc32uL  =  m32uL::m32uH
+                 ;*   multiplier        multiplicand         result
+                 ;*  r20r21   x   r16   =  r20r21r22r23
+                 ;*
+                 ;***************************************************************************
+                 .def    mc32u0  =r16    ; multiplicand byte 0 (LSB)
+                 .def    mc32u1  =r17    ; multiplicand byte 1
+                 .def    mc32u2  =r18    ; multiplicand byte 2
+                 .def    mc32u3  =r19    ; multiplicand byte 3 (MSB)
+                 .def    mp32u0  =r20    ; multiplier byte 0 (LSB)
+                 .def    mp32u1  =r21    ; multiplier byte 1
+                 .def    mp32u2  =r22    ; multiplier byte 2
+                 .def    mp32u3  =r23    ; multiplier byte 3 (MSB)
+                 .def    m32u0   =r20    ; result byte 0 (LSB)
+                 .def    m32u1   =r21    ; result byte 1
+                 .def    m32u2   =r22    ; result byte 2
+                 .def    m32u3   =r23    ; result byte 3
+                 .def    m32u4   =r24    ; result byte 4
+                 .def    m32u5   =r25    ; result byte 5
+                 .def    m32u6   =r26    ; result byte 6
+                 .def    m32u7   =r27    ; result byte 7 (MSB)
+                 .def    mcnt32u =r28    ; loop counter
+                 
+0003a1 2711      Mul32b:         clr     mc32u1          ;multiplicand is one byte
+0003a2 2722      Mul32w:         clr     mc32u2          ;                two bytes
+0003a3 2733      Mul32t:         clr     mc32u3          ;                three bytes
+0003a4 27bb      Mul32:          clr     m32u7           ;clear 4 highest bytes of result
+0003a5 27aa                      clr     m32u6           ;
+0003a6 2799                      clr     m32u5           ;
+0003a7 1b88                      sub     m32u4,m32u4     ;and carry
+0003a8 e2c1                      ldi     mcnt32u,33      ;init loop counter
+0003a9 9577      m32u_loop:      ror     m32u3           ;rotate result and multiplier
+0003aa 9567                      ror     m32u2           ;
+0003ab 9557                      ror     m32u1           ;
+0003ac 9547                      ror     m32u0           ;
+0003ad 95ca                      dec     mcnt32u         ;decrement loop counter
+0003ae f2a9                      breq    Return32u       ;if counter zero return
+0003af f420                      brcc    m32u_skip       ;if bit 0 of multiplier set
+0003b0 0f80                      add     m32u4,mc32u0    ;   add multiplicand to result
+0003b1 1f91                      adc     m32u5,mc32u1    ;
+0003b2 1fa2                      adc     m32u6,mc32u2    ;
+0003b3 1fb3                      adc     m32u7,mc32u3    ;
+0003b4 95b7      m32u_skip:      ror     m32u7           ;shift right result byte 7
+0003b5 95a7                      ror     m32u6           ;rotate right result
+0003b6 9597                      ror     m32u5           ;
+0003b7 9587                      ror     m32u4           ;
+0003b8 cff0                      rjmp    m32u_loop       ;
+                 
+                 ;***************************************************************************
+                 ;*
+                 ;* Bin2BCD == 16-bit Binary to BCD conversion
+                 ;*
+                 ;* fbinL:fbinH  >>>  tBCD0:tBCD1:tBCD2
+                 ;*     hex                  dec
+                 ;*   r16r17     >>>      r20r21r22
+                 ;*
+                 ;***************************************************************************
+                 .def    fbinL   =r16    ; binary value Low byte
+                 .def    fbinH   =r17    ; binary value High byte
+                 .def    tBCD0   =r20    ; BCD value digits 0 and 1
+                 .def    tBCD1   =r21    ; BCD value digits 2 and 3
+                 .def    tBCD2   =r22    ; BCD value digit 4 (MSD is lowermost nibble)
+                 
+0003b9 2f04      Bin2BCD20:      mov     r16,r20         ;for compatibility with Math32
+0003ba 2f15                      mov     r17,r21         ;
+0003bb ef6f      Bin2BCD16:      ldi     tBCD2,0xff      ;initialize digit 4
+0003bc 9563      binbcd_4:       inc     tBCD2           ;
+0003bd 5100                      subi    fbinL,low(10000);subiw fbin,10000
+0003be 4217                      sbci    fbinH,high(10000)
+0003bf f7e0                      brcc    binbcd_4        ;
+0003c0 e95f                      ldi     tBCD1,0x9f      ;initialize digits 3 and 2
+0003c1 5150      binbcd_3:       subi    tBCD1,0x10      ;
+0003c2 5108                      subi    fbinL,low(-1000);addiw fbin,1000
+0003c3 4f1c                      sbci    fbinH,high(-1000)
+0003c4 f3e0                      brcs    binbcd_3        ;
+0003c5 9553      binbcd_2:       inc     tBCD1           ;
+0003c6 5604                      subi    fbinL,low(100)  ;subiw fbin,100
+0003c7 4010                      sbci    fbinH,high(100) ;
+0003c8 f7e0                      brcc    binbcd_2        ;
+0003c9 ea40                      ldi     tBCD0,0xa0      ;initialize digits 1 and 0
+0003ca 5140      binbcd_1:       subi    tBCD0,0x10      ;
+0003cb 5f06                      subi    fbinL,-10       ;addi fbin,10
+0003cc f3e8                      brcs    binbcd_1        ;
+0003cd 0f40                      add     tBCD0,fbinL     ;LSD
+0003ce 9508      binbcd_ret:     ret                     ;
+                 .equ Bin2BCD=Bin2BCD20 ;default registers BIN to BCD call
+                 	
+                 
+                 
+
+
+RESOURCE USE INFORMATION
+------------------------
+
+Notice:
+The register and instruction counts are symbol table hit counts,
+and hence implicitly used resources are not counted, eg, the
+'lpm' instruction without operands implicitly uses r0 and z,
+none of which are counted.
+
+x,y,z are separate entities in the symbol table and are
+counted separately from r26..r31 here.
+
+.dseg memory usage only counts static data declared with .byte
+
+ATtiny2313 register use summary:
+r0 :   8 r1 :   2 r2 :   0 r3 :   0 r4 :   0 r5 :   0 r6 :   0 r7 :   0 
+r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 r13:   0 r14:   0 r15:   0 
+r16: 352 r17: 118 r18:  45 r19:  14 r20:  23 r21:  19 r22:  13 r23:  11 
+r24:  10 r25:   9 r26:   9 r27:  10 r28:   6 r29:   0 r30:   8 r31:   7 
+x  :   0 y  :   0 z  :  14 
+Registers used: 18 out of 35 (51.4%)
+
+ATtiny2313 instruction use summary:
+adc   :   9 add   :  10 adiw  :   0 and   :   0 andi  :  11 asr   :   0 
+bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 brcc  :   7 brcs  :   3 
+break :   0 breq  :  20 brge  :   0 brhc  :   0 brhs  :   0 brid  :   0 
+brie  :   0 brlo  :   2 brlt  :   0 brmi  :   0 brne  :  15 brpl  :   0 
+brsh  :   0 brtc  :   1 brts  :   1 brvc  :   0 brvs  :   0 bset  :   0 
+bst   :   0 cbi   :  17 cbr   :   8 clc   :   1 clh   :   0 cli   :   0 
+cln   :   0 clr   :  56 cls   :   0 clt   :   1 clv   :   0 clz   :   0 
+com   :   4 cp    :   0 cpc   :   0 cpi   :  11 cpse  :   0 dec   :  12 
+eor   :   2 icall :   0 ijmp  :   0 in    :   3 inc   :   9 ld    :   1 
+ldd   :   0 ldi   :  91 lds   :  49 lpm   :   0 lsl   :   7 lsr   :  11 
+mov   :  10 movw  :   0 neg   :   0 nop   :   4 or    :   3 ori   :   1 
+out   :  26 pop   :  60 push  :  55 rcall :  76 ret   :  23 reti  :   2 
+rjmp  :  43 rol   :  10 ror   :  16 sbc   :   6 sbci  :   6 sbi   :  25 
+sbic  :   1 sbis  :   2 sbiw  :   0 sbr   :  21 sbrc  :  18 sbrs  :   0 
+sec   :   1 seh   :   0 sei   :   1 sen   :   0 ser   :   0 ses   :   0 
+set   :   1 sev   :   0 sez   :   0 sleep :   1 spm   :   0 st    :   1 
+std   :  12 sts   :  49 sub   :   6 subi  :   7 swap  :   6 tst   :  11 
+wdr   :   0 
+Instructions used: 57 out of 103 (55.3%)
+
+ATtiny2313 memory use summary [bytes]:
+Segment   Begin    End      Code   Data   Used    Size   Use%
+---------------------------------------------------------------
+[.cseg] 0x000000 0x00079e   1928      0   1928    2048  94.1%
+[.dseg] 0x000060 0x000086      0     38     38     128  29.7%
+[.eseg] 0x000000 0x000000      0      0      0     128   0.0%
+
+Assembly complete, 0 errors, 48 warnings
